@@ -16,7 +16,7 @@
     <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 
    </head>
-   <body>
+   <body class="verson2">
 
 <?php 
 	require_once('inc/socialheaderv2.inc');

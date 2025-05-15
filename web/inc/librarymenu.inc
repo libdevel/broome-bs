@@ -1,10 +1,7 @@
-<div class="libnav-wrap">
-	<div class="main-nav bg-body-tertiary">
-		
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#libNavDropdown" aria-controls="#libNavDropdown"  aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="container">
+
 				<div class="navbar-collapse collapse" id="libNavDropdown">
 					<ul class="navbar-nav">
 						<li class="nav-item dropdown">
@@ -59,10 +56,8 @@
 						<li class="nav-item"><a class="nav-link" href="indexv2.php">V2</a></li>
 					</ul>
 				</div><!-- /navbar -->
-			</div><!-- /container? -->
-		
-	</div><!-- /main-nav -->
-</div><!-- /campus-nav-wrap -->
+
+</div><!-- /container -->
 </div><!-- /thirdnav -->
 </nav>
 

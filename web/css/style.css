@@ -84,9 +84,18 @@ text-transform: none; font-weight: 500; border-bottom: 1px solid #232323;}
 .megamenu a {text-transform: none; font-family: "Roboto Slab",Arial,Helvetica,sans-serif;}
 .megamenu a:hover  {color: #eeb310;}
 
-
-
 .dropdown-item {white-space: wrap;}
+
+/*  button styles */
+
+.icon-text {
+  display: block;
+  margin: -5px 0;
+  font-size: 10px;
+  line-height: 10px;
+}
+
+
 
 
 /* hero image */
@@ -114,14 +123,14 @@ text-transform: none; font-weight: 500; border-bottom: 1px solid #232323;}
 
 /* quick search */
 
-.homepagesearch {background-color: #fff; padding: 10px;}
+.homepagesearch {background-color: #fff; padding: 20px;}
 .homepagesearch .tab-content {min-height: 9.7em;
   background-color: #fff;
   padding:20px 10px 20px 10px;margin-bottom: 20px;}
 
 
 /* libcal hours */
-.hours-block {background-color: #fff; padding: 10px; margin-bottom:10px;}
+.hours-block {background-color: #fff; padding: 20px; margin-bottom:10px;}
 	
 .libraryHoursContainer {min-height:55px;}
 
@@ -144,7 +153,6 @@ text-transform: none; font-weight: 500; border-bottom: 1px solid #232323;}
 .sr-only {position: absolute;width: 1px;height: 1px;padding: 0;margin: -1px;overflow: hidden;clip: rect(0, 0, 0, 0);border: 0;}
 
 
-
 /*  books and news blocks */
 .more-link {clear:both; float:right;}
 
@@ -153,6 +161,8 @@ text-transform: none; font-weight: 500; border-bottom: 1px solid #232323;}
 .region-books-display li {float:left;margin-left:20px;list-style-image: none;
     list-style-type: none;}
 
+
+.footer {margin-top:20px;}
 
 /* cankle */
 .cankle {background-color:#232323; font-size:16px; padding-top:100px;color: #fff;}
@@ -189,7 +199,7 @@ text-transform: none; font-weight: 500; border-bottom: 1px solid #232323;}
 @media (min-width: 768px) { 
         
     .featured-image-and-title {height: 400px; background-image: url("/images/hero-background.jpg");
-    position: relative;margin-bottom:0px;}
+         position: relative;margin-bottom:0px;}
     .featured-image-and-title .wrap {position: relative;z-index: 2;}
    .featured-image-and-title .media-wrap{ padding:5em;}
 
@@ -201,7 +211,6 @@ text-transform: none; font-weight: 500; border-bottom: 1px solid #232323;}
     }
 
 }
-
 
 @media (max-width: 991px) {
     .social-links {display:none;}  

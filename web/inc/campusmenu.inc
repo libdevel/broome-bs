@@ -1,4 +1,4 @@
-<div class="campusnav-wrap">
+
    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#campusNavDropdown" aria-controls="campusNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
    <span class="navbar-toggler-icon"></span>
    </button>
@@ -277,7 +277,6 @@
       <!-- /collapse -->
    </div>
    <!-- /container -->
-</div>
-<!-- /campus-links-wrap -->
+
 </nav><!-- /campusnav -->
 

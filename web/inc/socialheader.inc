@@ -7,7 +7,7 @@
                    <div class="campus-logo">
                       <a class="navbar-brand" href="https://broome-bs1.ddev.site/"><img src="/images/SB-Wordmark_Gold.png" alt="SUNY Broome Logo" height="27" width="250"></a> 
                    </div>
-               <div class="campus-menu">
+           
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#campuslinksNavDropdown" aria-controls="campuslinksNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                   </button>
@@ -57,13 +57,8 @@
                         </li>
                         <li class="nav-item"><a class="nav-link" href="https://broome-bs1.ddev.site/community-alumni/give/">♥Give</a></li>
                      </ul>
-                  </div>
-                  <!-- /collapse -->
-               </div>
-      </div><!-- /campus-menu -->
-               <!-- /container -->
+                  </div><!-- /collapse -->
+               </div><!-- /container -->
             </nav>
-         </div>
-         <!-- /campus-links -->
-      </div>
-      <!-- /social-header -->
+         </div><!-- /campus-links -->
+      </div><!-- /social-header -->
