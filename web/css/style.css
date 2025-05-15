@@ -125,6 +125,11 @@ text-transform: none; font-weight: 500; border-bottom: 1px solid #232323;}
   background-color: #fff;
   padding:20px 10px 20px 10px;margin-bottom: 20px;}
 
+.nav-tabs > li > button {
+ /* background-color: #f2f2f2; */
+  font-size: 1em; font-weight:bold;
+}
+
 
 /* libcal hours */
 .hours-block {background-color: #fff; padding: 20px; margin-bottom:10px;}

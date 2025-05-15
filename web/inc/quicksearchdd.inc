@@ -1,6 +1,6 @@
 <div class="frontdecor">
 <div class="homepagesearch tabs">
-<h3>Quicksearch  Dropdown</h3>
+<h3>Quicksearch</h3>
 
 	<!--AllSearch Form-->
 	<form class="form-inline text-center" id="simple" role="search" name="searchForm2" method="get" target="_self" action="https://suny-bsc.primo.exlibrisgroup.com/discovery/search" enctype="application/x-www-form-urlencoded; charset=utf-8" onsubmit="searchPrimo()">

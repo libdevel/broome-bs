@@ -9,7 +9,7 @@
 <div class="frontdecor">
 <div class="homepagesearch tabs">
 
-<h3>Quicksearch1 Tabs to Accordian</h3>
+<h3>Quicksearch</h3>
 
 <ul class="nav nav-tabs d-none d-lg-flex" id="myTab" role="tablist">
    <li class="nav-item" role="presentation">
@@ -21,9 +21,7 @@
    <li class="nav-item" role="presentation">
 <button class="nav-link" id="#tab-4" data-bs-toggle="tab" data-bs-target="#tab-4" type="button" role="tab" aria-controls="tab-4" aria-selected="false">Reserves</button></li>
    <li class="nav-item" role="presentation">
-<button class="nav-link" id="#tab-5" data-bs-toggle="tab" data-bs-target="#tab-5" type="button" role="tab" aria-controls="tab-5" aria-selected="false">Journals</button></li>
-   <li class="nav-item" role="presentation">
-<button class="nav-link" id="#tab-6" data-bs-toggle="tab" data-bs-target="#tab-6" type="button" role="tab" aria-controls="tab-6" aria-selected="false">Other Libraries</button></li>
+<button class="nav-link" id="#tab-5" data-bs-toggle="tab" data-bs-target="#tab-5" type="button" role="tab" aria-controls="tab-5" aria-selected="false">Other Libraries</button></li>
 </ul>
 
 
@@ -44,8 +42,8 @@
          <!-- Fixed parameters -->
          <input type="hidden" name="query" id="primoQueryEv">
         <div class="row">
-         <div class="col-10">
-            <input class="focus form-control" aria-label="Input search terms here" type="text" id="primoQueryEvTemp" placeholder="Search for articles & books" value="">
+         <div class="col-9">
+            <input class="form-control" aria-label="Input search terms here" type="text" id="primoQueryEvTemp" placeholder="Search for articles & books" value="">
          </div><!-- col-md-10 -->
          <div class="col-2">
             <input type="submit" class="btn btn-info" value="Search" id="go1" title="Search" onclick="searchPrimoEv()" />
@@ -73,7 +71,7 @@
          <!-- Fixed parameters -->
          <input type="hidden" name="query" id="primoQueryArt">
  <div class="row">
-         <div class="col-md-10">
+         <div class="col-md-8">
             <input class="form-control" aria-label="Input search terms here" type="text" id="primoQueryArtTemp" placeholder="Search for articles" value="">
          </div><!-- col-md-10 -->
          <div class="col-md-2">
@@ -81,7 +79,7 @@
          </div><!-- col-md-2 -->
         </div><!-- row -->
       </form>
-      <div class="library-links"><a href="/library/databases">Search for articles by subject</a>, <a href="/library/journals-and-magazines">Journal A-Z list</a>, <a href="https://suny-bcc.primo.exlibrisgroup.com/discovery/search?vid=01SUNY_BCC:01SUNY_BCC&sortby=rank&mode=advanced">Advanced Search</a></div>
+      <div class="library-links"><a href="/library/databases">Search for articles by subject</a> | <a href="/library/journals-and-magazines">Journal A-Z list</a> | <a href="https://suny-bcc.primo.exlibrisgroup.com/discovery/search?vid=01SUNY_BCC:01SUNY_BCC&sortby=rank&mode=advanced">Advanced Search</a></div>
          </div><!-- accordion-body -->
       </div><!-- accordion-collapse-->
    </div><!-- tab-2-->
@@ -100,7 +98,7 @@
          <!-- Fixed parameters -->
          <input type="hidden" name="query" id="primoQueryCat">
  <div class="row">
-         <div class="col-md-10">
+         <div class="col-md-8">
             <input class="form-control" aria-label="Input search terms here" type="text" id="primoQueryCatTemp" placeholder="Search for books and media" value="">
          </div><!-- col-md-10 -->
          <div class="col-md-2">
@@ -108,7 +106,7 @@
          </div><!-- col-md-2 -->
 </div><!-- row -->
       </form>
-      <div class="library-links"><a href="https://suny-bcc.primo.exlibrisgroup.com/discovery/search?&tab=eBooks&search_scope=eBooks&vid=01SUNY_BCC:01SUNY_BCC&offset=0">Search for ebooks</a>, <a href="https://suny-bcc.primo.exlibrisgroup.com/discovery/search?vid=01SUNY_BCC:01SUNY_BCC&sortby=rank&mode=advanced">Advanced Search</a></div>
+      <div class="library-links"><a href="https://suny-bcc.primo.exlibrisgroup.com/discovery/search?&tab=eBooks&search_scope=eBooks&vid=01SUNY_BCC:01SUNY_BCC&offset=0">Search for ebooks</a> | <a href="https://suny-bcc.primo.exlibrisgroup.com/discovery/search?vid=01SUNY_BCC:01SUNY_BCC&sortby=rank&mode=advanced">Advanced Search</a></div>
    </div>
          </div><!-- accordion-body -->
       </div><!-- accordion-collapse-->
@@ -150,37 +148,13 @@
    <!--tab-4 -->
 
 
+
+
    <div id="tab-5" class="tab-pane fade" role="tabpanel" aria-labelledby="tab-5" tabindex="0">
       <h2 class="accordion-header d-lg-none" id="headingFive">
-         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Journals</button>
+         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Other Libraries</button>
       </h2>
       <div id="collapseFive" class="accordion-collapse collapse d-lg-block" aria-labelledby="headingFive" data-bs-parent="#myTabContent">
-         <div class="accordion-body">
-      <form name="searchFormJ" role="search" id="journal-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/jsearch" onsubmit="searchPrimoJR();" enctype="application/x-www-form-urlencoded; charset=utf-8">
-         <input type="hidden" name="vid" value="01SUNY_BCC:01SUNY_BCC">
-         <input type="hidden" name="tab" value="jsearch_slot">
-         <!-- Fixed parameters -->
-         <input type="hidden" name="query" id="primoQueryJR">
- <div class="row">
-         <div class="col-md-10">
-            <input class="form-control" aria-label="Input search terms here" type="text" id="primoQueryJRTemp" placeholder="Search for Journals, magazines, and newspapers" value="">
-         </div><!-- col-md-10 -->
-         <div class="col-md-2">
-            <input type="submit" class="btn btn-info" value="Search" id="go5" title="Search" onclick="searchPrimoJR()" />
-         </div><!-- col-md-2 -->
-</div><!-- row -->
-      </form>
-      <div class="library-links"><a href="/library/journals-and-magazines">Journal A-Z list</a></div>
-         </div><!-- accordion-body -->
-      </div><!-- accordion-collapse-->
-     </div> <!-- tab-5 -->
-
-
-   <div id="tab-6" class="tab-pane fade" role="tabpanel" aria-labelledby="tab-6" tabindex="0">
-      <h2 class="accordion-header d-lg-none" id="headingSix">
-         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Other Libraries</button>
-      </h2>
-      <div id="collapseSix" class="accordion-collapse collapse d-lg-block" aria-labelledby="headingSix" data-bs-parent="#myTabContent">
          <div class="accordion-body">
       <form name="searchFormILL" role="search" id="other-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/search" onsubmit="PrimoQueryILL();" enctype="application/x-www-form-urlencoded; charset=utf-8">
          <input type="hidden" name="vid" value="01SUNY_BCC:01SUNY_BCC">
@@ -189,7 +163,7 @@
          <!-- Fixed parameters -->
          <input type="hidden" name="query" id="primoQueryILL">
  <div class="row">
-         <div class="col-md-10">
+         <div class="col-md-8">
             <input class="form-control" aria-label="Input search terms here" type="text" id="primoQueryILLTemp" placeholder="Search for books in other libraries" value="">
          </div><!-- col-md-10 -->
          <div class="col-md-2">
@@ -200,7 +174,7 @@
    </div>
          </div><!-- accordion-body -->
       </div><!-- accordion-collapse-->
-   <!-- tab-6 -->
+   <!-- tab-5 -->
 </div>
 
 
