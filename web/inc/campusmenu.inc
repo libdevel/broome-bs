@@ -1,8 +1,9 @@
-<div class="campusnav-wrap">
-   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#campusNavDropdown" aria-controls="campusNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-   <span class="navbar-toggler-icon"></span>
-   </button>
-   <div class="collapse navbar-collapse" id="campusNavDropdown">
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#campusNavDropdown" aria-controls="campusNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+
+   <div class="collapse navbar-collapse justify-content-end" id="campusNavDropdown">
       <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
          <!-- Mega Menu 1 -->
          <li class="nav-item dropdown dropdown-mega position-static">
@@ -272,12 +273,10 @@
                <!--/container-->
             </div>
             <!-- Mega Menu 5 -->
-         <li><a class="nav-link" href="https://broome-bs1.ddev.site/apply/">Apply Now</a></li>
+      <!--   <li><a class="nav-link" href="https://broome-bs1.ddev.site/apply/">Apply Now</a></li> -->
       </ul>
       <!-- /collapse -->
    </div>
    <!-- /container -->
-</div>
-<!-- /campus-links-wrap -->
 </nav><!-- /campusnav -->
 

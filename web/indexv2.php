@@ -26,7 +26,7 @@
 <nav class="navbar campusnav navbar-expand-lg bg-body-tertiary">
    <div class="container">
    <div class="campus-logo">
-      <a class="navbar-brand" href="https://broome-bs1.ddev.site/"><img src="sunybroome-words.png" alt="SUNY Broome Logo" height="27" width="250"></a> 
+      <a class="navbar-brand" href="https://broome-bs1.ddev.site/"><img src="images/sunybroome-words_retina.png" alt="SUNY Broome Logo" height="27" width="250"></a> 
    </div>
 <?php 
 	require_once('inc/campusmenu.inc');
@@ -54,7 +54,7 @@
 <?php 
 	require_once('inc/librarymenu.inc');
 ?>
-
+</div><!-- /thirdnav -->
 
  <div class="content-wrap mt-3"> 
 <div class="container main-container">

@@ -1,11 +1,9 @@
-<div class="libnav-wrap">
-	<div class="main-nav bg-body-tertiary">
-		
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#libNavDropdown" aria-controls="#libNavDropdown"  aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="container">
-				<div class="navbar-collapse collapse" id="libNavDropdown">
+
+
+				<div class="navbar-collapse collapse justify-content-end" id="libNavDropdown">
 					<ul class="navbar-nav">
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="about-library.php" title="">About Us<span class="caret"></span></a>
@@ -58,11 +56,6 @@
 						<li class="nav-item"><a class="nav-link" href="index.php">V1</a></li>
 						<li class="nav-item"><a class="nav-link" href="indexv2.php">V2</a></li>
 					</ul>
-				</div><!-- /navbar -->
-			</div><!-- /container? -->
-		
-	</div><!-- /main-nav -->
-</div><!-- /campus-nav-wrap -->
-</div><!-- /thirdnav -->
+				</div><!-- /navbar-collaspe -->
 </nav>
 
