@@ -1,0 +1,23 @@
+RewriteEngine On
+
+
+# full path of 404 page removes referrer data
+
+ErrorDocument 404   /404.php
+
+
+DirectoryIndex index.php index.php7 index.php5 index.perl index.pl index.plx index.ppl index.cgi index.jsp index.jp index.phtml index.shtml index.xhtml index.html index.htm index.js default.html
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 138.91.51.247
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php82” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php82 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

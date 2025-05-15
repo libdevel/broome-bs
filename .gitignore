@@ -1,0 +1,5 @@
+# DDev's snapshot directory.
+/.ddev
+
+!.ddev/config.yaml
+

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Library</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/primo.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+<style>
+.megamenu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.megamenu.show {
+  display: flex;
+}
+
+.megamenu li:first-child a {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #516beb;
+}
+
+.megamenu li .dropdown-item {
+  color: gray;
+  font-size: 1em;
+  padding: 0.5em 1em;
+}
+
+.megaumenu {
+  border: none;
+  border-radius: 0;
+  padding: 0.7em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+@media only screen and (min-width: 992px) {
+  .dropdown:hover .megamenu {
+    display: flex;
+  }
+  .megamenu.show {
+    display: flex;
+  }
+}
+
+
+</style>
+
+  
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<nav class="navbar bg-dark border-bottom border-body navbar-expand-lg bg" data-bs-theme="dark">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+
+
+        <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown link</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="float-sm-end">Float end on viewports sized SM (small 576px) or wider</div><br>
+<div class="float-md-end">Float end on viewports sized MD (medium 768px) or wider</div><br>
+<div class="float-lg-end">Float end on viewports sized LG (large 992px) or wider</div><br>
+<div class="float-xl-end">Float end on viewports sized XL (extra large 1200px) or wider</div><br>
+<div class="float-xxl-end">Float end on viewports sized XXL (extra extra large 1400px) or wider</div><br>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #516BEB;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+            <ul>
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Mega Menu Link</a></li>
+              <li><a class="dropdown-item" href="#">Mega Menu Link</a></li>
+              <li><a class="dropdown-item" href="#">Mega Menu Link</a></li>
+              <li><a class="dropdown-item" href="#">Mega Menu Link</a></li>
+            </ul>
+            <ul>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Mega Menu Link</a></li>
+              <li><a class="dropdown-item" href="#">Mega Menu Link</a></li>
+              <li><a class="dropdown-item" href="#">Mega Menu Link</a></li>
+            </ul>
+            <ul>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Mega Menu Link</a></li>
+              <li><a class="dropdown-item" href="#">Mega Menu Link</a></li>
+              <li><a class="dropdown-item" href="#">Mega Menu Link</a></li>
+              <li><a class="dropdown-item" href="#">Mega Menu Link</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    <button data-mdb-button-init class="navbar-toggler px-0" type="button" data-mdb-collapse-init
+      data-mdb-target="#navbarExample1" aria-controls="navbarExample1" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarExample1">
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto ps-lg-0" style="padding-left: 0.15rem">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Regular link</a>
+        </li>
+        <!-- Navbar dropdown -->
+        <li class="nav-item dropdown position-static">
+          <a data-mdb-dropdown-init class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+            data-mdb-toggle="dropdown" aria-expanded="false">
+            Mega menu
+          </a>
+          <!-- Dropdown menu -->
+          <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown" style="
+                          border-top-left-radius: 0;
+                          border-top-right-radius: 0;
+                        ">
+            <div class="container">
+              <div class="row my-4">
+                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                  <div class="list-group list-group-flush">
+                    <a href="" class="list-group-item list-group-item-action">Lorem ipsum</a>
+                    <a href="" class="list-group-item list-group-item-action">Dolor sit</a>
+                    <a href="" class="list-group-item list-group-item-action">Amet consectetur</a>
+                    <a href="" class="list-group-item list-group-item-action">Cras justo odio</a>
+                    <a href="" class="list-group-item list-group-item-action">Adipisicing elit</a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                  <div class="list-group list-group-flush">
+                    <a href="" class="list-group-item list-group-item-action">Explicabo voluptas</a>
+                    <a href="" class="list-group-item list-group-item-action">Perspiciatis quo</a>
+                    <a href="" class="list-group-item list-group-item-action">Cras justo odio</a>
+                    <a href="" class="list-group-item list-group-item-action">Laudantium maiores</a>
+                    <a href="" class="list-group-item list-group-item-action">Provident dolor</a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                  <div class="list-group list-group-flush">
+                    <a href="" class="list-group-item list-group-item-action">Iste quaerato</a>
+                    <a href="" class="list-group-item list-group-item-action">Cras justo odio</a>
+                    <a href="" class="list-group-item list-group-item-action">Est iure</a>
+                    <a href="" class="list-group-item list-group-item-action">Praesentium</a>
+                    <a href="" class="list-group-item list-group-item-action">Laboriosam</a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                  <div class="list-group list-group-flush">
+                    <a href="" class="list-group-item list-group-item-action">Cras justo odio</a>
+                    <a href="" class="list-group-item list-group-item-action">Saepe</a>
+                    <a href="" class="list-group-item list-group-item-action">Vel alias</a>
+                    <a href="" class="list-group-item list-group-item-action">Sunt doloribus</a>
+                    <a href="" class="list-group-item list-group-item-action">Cum dolores</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+
+
+<style>
+@media (min-width: 992px) {
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+}
+}
+</style>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+  <div class="container">
+    <a class="navbar-brand" href="#">Bootstrap</a>
+    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar-content">
+      <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        
+        <!-- Mega Menu -->
+        <li class="nav-item dropdown dropdown-mega position-static " sytle="">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Megamenu</a>
+          <div class="dropdown-menu shadow container">
+            <div class="mega-content px-4">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12 col-sm-4 col-md-3 py-4">
+                    <h5>No additional JS</h5>
+                    <div class="list-group">
+                      <a class="list-group-item" href="#">Accomodations</a>
+                      <a class="list-group-item" href="#">Terms &amp; Conditions</a>
+                      <a class="list-group-item" href="#">Privacy</a>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 py-4">
+                    <h5>No Additional CSS</h5>
+                    <div class="card">
+                <img src="https://images.unsplash.com/photo-1509599589979-3b5a15d2816e?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NDR8fGZvcmVzdHxlbnwwfDB8fHwxNjM0OTkxMjA3&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&amp;h=768" class="img-fluid" alt="image">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div> <!-- / card body -->
+              </div><!-- / card -->
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 py-4">
+                    <h5>Lot of Pages</h5>
+                    <p>Lorem ipsum dolo sit achmet muhamed borlan de irtka.
+                  </p></div>
+                  <div class="col-12 col-sm-12 col-md-3 py-4">
+                    <h5>Accomodation</h5>
+                    <div class="list-group">
+                      <a class="list-group-item" href="#">Accomodations</a>
+                      <a class="list-group-item" href="#">Terms &amp; Conditions</a>
+                      <a class="list-group-item" href="#">Privacy</a>
+                    </div> <!--/list-group-->
+                  </div> <!-- /col-12-->
+                </div><!-- / row -->
+              </div> <!-- / container -->
+            </div>
+          </div>
+      
+      </ul>
+      <form class="d-flex ms-auto">
+          <div class="input-group">
+              <input class="form-control border-0 mr-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-primary border-0" type="submit">Search</button>
+          </div>
+      </form>
+    </div>
+  </div>
+</nav>
+
+  <!-- Content -->
+  <div class="container">
+    <h1>Hello, world!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  </div>
+
+</body>
+</html>
