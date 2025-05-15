@@ -14,7 +14,7 @@
       <script defer data-domain="very.inept.quest" src="https://implausible.info/js/script.outbound-links.js"></script>
       <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
    </head>
-   <body class="version1">
+   <body class="verion1">
       <?php 
          require_once('inc/socialheader.inc');
          ?>
