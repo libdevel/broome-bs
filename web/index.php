@@ -11,8 +11,16 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
       <script src="js/primo.js"></script>
       <link rel="stylesheet" href="css/style.css">
-      <script defer data-domain="very.inept.quest" src="https://implausible.info/js/script.outbound-links.js"></script>
-      <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+<!--
+    <script defer data-domain="very.inept.quest" src="https://implausible.info/js/script.outbound-links.js"></script>
+    <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+-->
+
+
+<!--  sb.dev -->
+<script defer data-domain="dev.sunybroome.dev" src="https://implausible.info/js/script.outbound-links.js"></script>
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+
    </head>
    <body class="version1">
       <?php 

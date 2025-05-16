@@ -19,11 +19,11 @@
                            Campus Menu</a>
                            <ul class="dropdown-menu">
                               <li><a class="dropdown-item" href="https://broome1.wpenginepowered.com/academics-programs/">Academics &amp; Programs</a></li>
-                              <li><a class="dropdown-item" href="https://broome1.wpenginepowered.com/calendar/">Admissions &amp; Costs</a> </li>
-                              <li><a class="dropdown-item" href="https://news.sunybroome.edu/calendar/events/">Our Campus</a></li>
-                              <li><a class="dropdown-item" href="https://broome1.wpenginepowered.com/registrar/college-academic-calendar/">About</a></li>
-                              <li><a class="dropdown-item" href="https://broome1.wpenginepowered.com/registrar/college-academic-calendar/">Careers &amp; Workforce</a></li>
-                              <li><a class="dropdown-item" href="https://broome1.wpenginepowered.com/registrar/college-academic-calendar/">Foundation &amp; Alumni</a></li>
+                              <li><a class="dropdown-item" href="https://broome1.wpenginepowered.com/admissions-costs/">Admissions &amp; Costs</a> </li>
+                              <li><a class="dropdown-item" href="https://broome1.wpenginepowered.com/our-campus/">Our Campus</a></li>
+                              <li><a class="dropdown-item" href="https://broome1.wpenginepowered.com/about/">About</a></li>
+                              <li><a class="dropdown-item" href="https://broome1.wpenginepowered.com/careers-workforce/">Careers &amp; Workforce</a></li>
+                              <li><a class="dropdown-item" href="https://broome1.wpenginepowered.com/community-alumni/">Foundation &amp; Alumni</a></li>
                            </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="https://broome1.wpenginepowered.com/directory/">Directory</a></li>
