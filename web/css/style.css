@@ -1,3 +1,13 @@
+/*  style guide 
+
+#232323 (Black)
+#eeb310 (Gold)
+#d3bc8d (Realistic Gold)
+#fbfaf5 (Off-White)
+
+*/
+
+
 
 /* fonts */
 
@@ -23,10 +33,16 @@ a {color:#6e5212;
 text-decoration-line: underline;
 text-decoration-style: dotted;}
 
+a:hover, a:focus {color: #000;}
 
-.justify-content-end {
-    justify-content: flex-end !important;
+.btn-info {
+  color: #fff;
+  border-color: #022241;
+  background-image: linear-gradient(#04519b,#033c73 60%,#02325f);
 }
+
+
+.justify-content-end {justify-content: flex-end !important;}
 
 #social-header {border-top: 10px solid #eeb310; background-color: #000; min-height:65px; color:#fff;}
 
@@ -37,8 +53,7 @@ text-decoration-style: dotted;}
 
 .campus-links {display:grid; }
 
-.campus-links a {font-family:"Barlow Semi Condensed",Arial,Helvetica,sans-serif; color:#fff; text-transform: uppercase;font-size: 12px; font-weight:bold;
-    letter-spacing:0.015em; padding-bottom:15px;}
+.campus-links a {font-family:"Barlow Semi Condensed",Arial,Helvetica,sans-serif; color:#fff; text-transform: uppercase;font-size: 12px; font-weight:bold; letter-spacing:0.015em; padding-bottom:15px;}
 
 .campus-links a:hover {color:#eeb310;}
 
@@ -58,8 +73,7 @@ text-decoration-style: dotted;}
 
 .campusnav-wrap {/*max-width:80%;*/}
 
-.campusnav a {font-family:"Barlow Semi Condensed",Arial,Helvetica,sans-serif; font-size:14px;color:#000; text-transform: uppercase; font-weight:bold;
-    letter-spacing:0.015em; padding-bottom:15px;}
+.campusnav a {font-family:"Barlow Semi Condensed",Arial,Helvetica,sans-serif; font-size:14px;color:#000; text-transform: uppercase; font-weight:bold; letter-spacing:0.015em; padding-bottom:15px;}
 
 .libnav a.navbar-brand {/*padding-top: 30px;*/ margin-top:10px; font-family:'albertus_mediumregular';
      min-height:70px;font-size: 1.0em; text-transform: none;} 
@@ -78,7 +92,7 @@ text-decoration-style: dotted;}
 .megamenu ul {list-style: none;padding: 0; line-height:1.33em;}
 
 .megamenu li .dropdown-item {color: #000;font-size: 14px; padding: 0.5em 1em;
-text-transform: none; font-weight: 500; border-bottom: 1px solid #232323;}
+    text-transform: none; font-weight: 500; border-bottom: 1px solid #232323;}
 
 .megamenu li:first-child a {font-weight: bold; font-size: 20px;text-transform: uppercase; font-family:"Barlow Semi Condensed",Arial,Helvetica,sans-serif;/*color: #516beb;*/}
 
@@ -120,16 +134,24 @@ text-transform: none; font-weight: 500; border-bottom: 1px solid #232323;}
 
 /* quick search */
 
-.homepagesearch {background-color: #fff; padding: 20px;}
+
+
+.homepagesearch { padding: 20px;background-color: #fff;}
+
+
+.homepagesearch .nav-tabs  {background-color: #fff;}
 .homepagesearch .tab-content {min-height: 9.7em;
   background-color: #fff;
   padding:20px 10px 20px 10px;margin-bottom: 20px;}
 
 .nav-tabs > li > button {
  /* background-color: #f2f2f2; */
-  font-size: 1em; font-weight:bold;
-}
+  font-size: 1em; font-weight:bold;}
 
+.nav-tabs .nav-link {border: 1px solid #eee; color:#6e5212; }
+
+
+.library-links {padding-top: 10px;margin-bottom: 0px;clear: both;}
 
 /* libcal hours */
 .hours-block {background-color: #fff; padding: 20px; margin-bottom:10px;}
@@ -160,7 +182,7 @@ text-transform: none; font-weight: 500; border-bottom: 1px solid #232323;}
 
 
 /* new books block */
-.region-books-display li {float:left;margin-left:20px;list-style-image: none;
+.region-books-display li {float:left;margin-left:20px; margin-top:20px;list-style-image: none;
     list-style-type: none;}
 
 
@@ -178,14 +200,17 @@ text-transform: none; font-weight: 500; border-bottom: 1px solid #232323;}
 .cankle h3, .cankle h4 {color: #fff;}
 
 .cankle a {color: #fff; text-decoration:none; font-weight:700;}
-.cankle .broome-yellow a {color:#eeb310;}
+.cankle .broome-yellow a {color:#eeb310; margin-top:10px; font-family:'albertus_mediumregular';
+     min-height:70px;font-size: 1.0em; text-transform: none;}
 
 
 .footerfooter {background-color:#d3bc8d; padding: 30px 20px 30px 20px;}
+
+.footerfooter p {font-weight:700;}
 .footerfooter a {color: #232323;}
 
 
-.fakeimg {background: #aaa;}
+.fakeimg {background: #aaa; padding:5px;margin-right:5px;}
 
 
 
@@ -194,37 +219,31 @@ text-transform: none; font-weight: 500; border-bottom: 1px solid #232323;}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-.hours-block {margin-bottom:10px;}
+    .hours-block {margin-bottom:10px;}
  }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-        
+      
+      .libnav {min-height:90px;}
+
     .featured-image-and-title {height: 400px; background-image: url("/images/hero-background.jpg");
          position: relative;margin-bottom:0px;}
-    .featured-image-and-title .wrap {position: relative;z-index: 2;}
-   .featured-image-and-title .media-wrap{ padding:5em;}
+
+    .featured-image-and-title .wrap {/* position: relative;z-index: 2; */}
 
      /* quicksearch */
-    .form-inline .form-control {
-        display: inline-block;
-        width: auto;
-        vertical-align: middle;
-    }
+    .form-inline .form-control {display: inline-block;width: auto;vertical-align: middle;}
 
 }
 
 @media (max-width: 991px) {
     .social-links {display:none;}  
-    .thirdnav .navbar-toggler {justify-self: flex-end;}
+  .tab-content>.tab-pane { display: block;opacity: 1;} 
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
-    /* demo v2 */
-    .campus-left .navbar, #campusNavDropdown .navbar-nav {justify-self: flex-end;}
-    .thirdnav .navbar, #libNavDropdown .navbar-nav {justify-self: flex-end;}
 
 
     /* campusnav megamenu */
@@ -236,14 +255,22 @@ text-transform: none; font-weight: 500; border-bottom: 1px solid #232323;}
     .megamenu.show {display: flex; }
 
     /*hero banner */
-        .featured-image-and-title.has-media .big-title-wrap {/*bottom: 4.25em;*/}
+    .featured-image-and-title.has-media .big-title-wrap {/*bottom: 4.25em;*/}
 
     .featured-image-and-title {height: 400px;
         background-image: url("/images/hero-background.jpg");
         position: relative;margin-bottom:0px;}
 
+   .version2 .featured-image-and-title .media-wrap {height: 400px; padding:5em;
+        position: relative !important;}
+
+    .version2 .big-title-wrap {position: absolute !important;transform: translateY(-50%) !important; top: 50% !important; }
+
+
 
          h1.pg-title {font-size: 6em;}
+
+    .version2 .frontdecor {background-color: #d3bc8d;padding: 20px; margin-bottom: 20px;}
 }
 
 /* X-Large devices (large desktops, 1200px and up) */

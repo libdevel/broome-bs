@@ -14,7 +14,7 @@
       <script defer data-domain="very.inept.quest" src="https://implausible.info/js/script.outbound-links.js"></script>
       <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
    </head>
-   <body class="verion1">
+   <body class="version1">
       <?php 
          require_once('inc/socialheader.inc');
          ?>
@@ -44,7 +44,7 @@
                      </div><!--col-sm-3-->
                      <div class="col-sm-8 order-sm-1">
                         <?php 
-                           require_once('inc/quicksearchdd.inc');
+                           require_once('inc/quicksearch1.inc');
                            ?>	
                      </div><!--col-sm-8-->
 

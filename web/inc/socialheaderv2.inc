@@ -35,37 +35,29 @@
                   </button>
                   <div class="collapse navbar-collapse" id="campuslinksNavDropdown">
                      <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="https://broome-bs1.ddev.site/directory/">Directory</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://broome-bs1.ddev.site/community-business/">Community &amp; Business</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://broome1.wpenginepowered.com/directory/">Directory</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://broome1.wpenginepowered.com/community-business/">Community &amp; Business</a></li>
                         <li class="nav-item dropdown">
                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                            Calendar</a>
                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="https://broome-bs1.ddev.site/calendar/">Calendar</a> </li>
+                              <li><a class="dropdown-item" href="https://broome1.wpenginepowered.com/calendar/">Calendar</a> </li>
                               <li><a class="dropdown-item" href="https://news.sunybroome.edu/calendar/events/list/?tribe_eventcategory%5B0%5D=317">Academic Calendar</a></li>
                               <li><a class="dropdown-item" href="https://news.sunybroome.edu/calendar/events/">Events Calendar</a></li>
-                              <li><a class="dropdown-item" href="https://broome-bs1.ddev.site/registrar/college-academic-calendar/">Key Dates</a></li>
+                              <li><a class="dropdown-item" href="https://broome1.wpenginepowered.com/registrar/college-academic-calendar/">Key Dates</a></li>
                            </ul>
                         </li>
                         <li class="nav-item dropdown">
                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                            News</a>
                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="https://broome-bs1.ddev.site/news/">News</a> </li>
+                              <li><a class="dropdown-item" href="https://broome1.wpenginepowered.com/news/">News</a> </li>
                               <li><a class="dropdown-item" href="https://news.sunybroome.edu/buzz/">Buzz</a></li>
                               <li><a class="dropdown-item" href="https://news.sunybroome.edu/buzz/category/hivehq/">HiveHQ</a></li>
                            </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                           Login</a>
-                           <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="https://broome-bs1.ddev.site/login/">Login</a></li>
-                              <li><a class="dropdown-item" href="https://mycollege.sunybroome.edu">MyCollege</a></li>
-                              <li><a class="dropdown-item" href="https://broome-bs1.ddev.site/login/brightspace/">Brightspace</a></li>
-                           </ul>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="https://broome-bs1.ddev.site/community-alumni/give/">♥Give</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://mycollege.sunybroome.edu">MyCollege</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://broome1.wpenginepowered.com/community-alumni/give/">♥Give</a></li>
                      </ul>
                   </div>
                   <!-- /collapse -->

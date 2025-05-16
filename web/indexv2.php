@@ -16,7 +16,7 @@
     <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 
    </head>
-   <body class="verson2">
+   <body class="version2">
 
 <?php 
 	require_once('inc/socialheaderv2.inc');
@@ -35,12 +35,10 @@
  
 
 <div class="featured-image-and-title has-media style-hdr-default placement-default">
-    <div class="media-wrap">							
-        <div class="wrap content-wrap">
+    <div class="media-wrap position-relative">							
             <div class="big-title-wrap">
 	            <h1 class="pg-title">Library</h1>
             </div><!-- big-title-wrap-->
-        </div><!-- wrap content-wrap-->
     </div><!-- media-wrap-->
 </div><!-- featured-image-->
 
@@ -49,7 +47,6 @@
 <nav class="navbar campusnav navbar-expand-lg bg-body-tertiary">
    <div class="container">
    <div class="library-logo">
-      <h1><a class="navbar-brand" href="https://broome-bs1.ddev.site/"></a></h1>
    </div>
 <?php 
 	require_once('inc/librarymenu.inc');

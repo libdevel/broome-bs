@@ -1,21 +1,13 @@
-<style>
-@media (max-width: 991px) {
-  .tab-content>.tab-pane { display: block;opacity: 1;}   
-}
-
-</style>
-
-
 <div class="frontdecor">
 <div class="homepagesearch tabs">
 
-<h3>Quicksearch</h3>
+<h2>Quicksearch</h2>
 
 <ul class="nav nav-tabs d-none d-lg-flex" id="myTab" role="tablist">
    <li class="nav-item" role="presentation">
 <button class="nav-link active" id="#tab-1" data-bs-toggle="tab" data-bs-target="#tab-1" type="button" role="tab" aria-controls="tab-1" aria-selected="true">Everything</button></li>
    <li class="nav-item" role="presentation">
-<button class="nav-link" id="#tab-2" data-bs-toggle="tab" data-bs-target="#tab-2" type="button" role="tab" role="tab" aria-controls="tab-2" aria-selected="false">Articles</button></li>
+<button class="nav-link" id="#tab-2" data-bs-toggle="tab" data-bs-target="#tab-2" type="button" role="tab" aria-controls="tab-2" aria-selected="false">Articles</button></li>
    <li class="nav-item" role="presentation">
 <button class="nav-link" id="#tab-3" data-bs-toggle="tab" data-bs-target="#tab-3" type="button" role="tab" aria-controls="tab-3" aria-selected="false">Books & Media</button></li>
    <li class="nav-item" role="presentation">
