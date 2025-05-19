@@ -50,13 +50,8 @@
                         <li class="nav-item"><a class="nav-link" href="https://mycollege.sunybroome.edu">MyCollege</a></li>
                         <li class="nav-item"><a class="nav-link" href="https://broome1.wpenginepowered.com/community-alumni/give/">♥Give</a></li>
                      </ul>
-                  </div>
-                  <!-- /collapse -->
-               </div>
-    
-               <!-- /container -->
+                  </div><!-- /collapse -->
+               </div><!-- /container -->
             </nav>
-         </div>
-         <!-- /campus-links -->
-      </div>
-      <!-- /social-header -->
+         </div><!-- /campus-links -->
+      </div><!-- /social-header -->

@@ -1,4 +1,4 @@
-<div id="front-display" class="container">
+<div id="front-display" class="container clearfix"">
 	<div class="row">	
 		<div id="books-wrapper" class="col-md-6">
 			<div class="books-display">

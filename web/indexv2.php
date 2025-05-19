@@ -72,6 +72,14 @@
 		   </div><!-- highlighted -->
 
  <div class="region-content">
+<div class=" text-nowrap rounded-3 p-1 m-3 text-bg-dark opacity-75">
+  <div class="d-block d-sm-none">Extra Small (xs) (<576px)</div>
+  <div class="d-none d-sm-block d-md-none">Small (sm) (>576px)</div>
+  <div class="d-none d-md-block d-lg-none">Medium (md) (>768px)</div>
+  <div class="d-none d-lg-block d-xl-none">Large (lg) (>992 px)</div>
+  <div class="d-none d-xl-block d-xxl-none">X-Large (xl) (>1200px)</div>
+  <div class="d-none d-xxl-block">XX-Large (xxl) (>1400px)</div>
+</div>
 <?php 
 	require_once('inc/quicksearch1.inc');
 ?>
@@ -107,6 +115,14 @@
 	 <?php 
 	  	require_once('inc/footer.inc');
 	  ?>
+<div class=" text-nowrap rounded-3 p-1 m-3 text-bg-dark opacity-75">
+  <div class="d-block d-sm-none">Extra Small (xs) (<576px)</div>
+  <div class="d-none d-sm-block d-md-none">Small (sm) (>576px)</div>
+  <div class="d-none d-md-block d-lg-none">Medium (md) (>768px)</div>
+  <div class="d-none d-lg-block d-xl-none">Large (lg) (>992 px)</div>
+  <div class="d-none d-xl-block d-xxl-none">X-Large (xl) (>1200px)</div>
+  <div class="d-none d-xxl-block">XX-Large (xxl) (>1400px)</div>
+</div>
 	</footer>
 
    </body>
