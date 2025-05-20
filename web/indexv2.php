@@ -1,28 +1,8 @@
-<!doctype html>
-<html lang="en">
-   <head>
-      <title>Bootstrap Library</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-       <link rel="stylesheet" media="all" href="fonts/bootstrap-icons/font/bootstrap-icons.min.css" />
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-      <script src="js/primo.js"></script>
-      <link rel="stylesheet" href="css/style.css">
 
-<!--
-    <script defer data-domain="very.inept.quest" src="https://implausible.info/js/script.outbound-links.js"></script>
-    <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
--->
-
-
-<!--  sb.dev -->
-<script defer data-domain="dev.sunybroome.dev" src="https://implausible.info/js/script.outbound-links.js"></script>
-<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
-
+      <?php 
+            require_once('inc/header.inc');
+            ?>
+      <title>Bootstrap Library v2</title>
    </head>
    <body class="version2">
 
@@ -42,7 +22,7 @@
 </div><!-- secondnav-->
  
 
-<div class="featured-image-and-title has-media style-hdr-default placement-default">
+<div class="featured-image-and-title">
     <div class="media-wrap container">							
             <div class="big-title-wrap ">
 	            <h1 class="pg-title">Library</h1>
@@ -73,6 +53,7 @@
 		   </div><!-- highlighted -->
 
  <div class="region-content">
+
 <div class=" text-nowrap rounded-3 p-1 m-3 text-bg-dark opacity-75">
   <div class="d-block d-sm-none">Extra Small (xs) (<576px)</div>
   <div class="d-none d-sm-block d-md-none">Small (sm) (>576px)</div>

@@ -54,12 +54,8 @@ a:hover, a:focus {color: #000;}
 
 .version2 .social-links .bi::before {color:#fff;font-size:1.5em;font-weight:900;}
 
-#social-header .icon-text {color:#fff;
-  display: block;
-  margin: -5px 0;
-  font-size: 15px;
-  line-height: 10px;
-}
+#social-header .icon-text {color:#fff;display: block;margin: -5px 0;
+  font-size: 15px;line-height: 10px;}
 
 .campus-links {display:grid; }
 
@@ -134,7 +130,8 @@ a:hover, a:focus {color: #000;}
 
  h1.pg-title  { font-family:"Barlow Semi Condensed",Arial,Helvetica,sans-serif; font-size: 2em; font-weight: 700; width: fit-content; text-transform: uppercase;}
 
-.featured-image-and-title .media-wrap{ padding:2em;}
+.version1 .featured-image-and-title .media-wrap{ padding:2em;}
+
 
 
 /* library/third nav */
@@ -242,6 +239,10 @@ a:hover, a:focus {color: #000;}
     .featured-image-and-title {height: 400px; background-image: url("/images/hero-background.jpg");
          position: relative;margin-bottom:0px;}
 
+ .version2   .featured-image-and-title {height: 300px;}
+   .version2 .big-title-wrap {position: absolute !important;transform: translateY(-50%) !important; top: 50% !important; }
+    .version2     h1.pg-title {font-size: 4em;}
+
     .featured-image-and-title .wrap {/* position: relative;z-index: 2; */}
 
      /* quicksearch */
@@ -269,18 +270,19 @@ a:hover, a:focus {color: #000;}
     /*hero banner */
     .featured-image-and-title.has-media .big-title-wrap {/*bottom: 4.25em;*/}
 
-    .featured-image-and-title {height: 400px;
+ .version1   .featured-image-and-title {height: 400px;
         background-image: url("/images/hero-background.jpg");
         position: relative;margin-bottom:0px;}
 
-   .version2 .featured-image-and-title .media-wrap {height: 400px; padding:5em;
-        position: relative !important;}
+
+
+   .version2 .featured-image-and-title .media-wrap {height: 300px; position: relative !important;}
 
     .version2 .big-title-wrap {position: absolute !important;transform: translateY(-50%) !important; top: 50% !important; }
 
 
 
-         h1.pg-title {font-size: 6em;}
+    .version2     h1.pg-title {font-size: 6em;}
 
     .version2 .frontdecor {background-color: #d3bc8d;padding: 20px; margin-bottom: 20px;}
 }
