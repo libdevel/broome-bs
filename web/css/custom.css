@@ -40,7 +40,13 @@ header {margin-bottom: 10px;}
 
 .page-header {border-bottom: 10px solid #eeb310;}
 
+.campus-menu h2 {text-transform:uppercase; }
 
+.campus-menu h2 a {font-family:"Barlow Semi Condensed",Arial,Helvetica,sans-serif;  text-transform: uppercase; font-weight:bold; 
+    letter-spacing:0.015em; margin-bottom:15px; text-decoration:none; border-bottom: 2px solid #eeb310; color:#000;}
+
+
+a:hover, a:focus {color: #d3bc8d ;}
 
 @media (min-width: 992px) {
     .library-logo-bar {min-height:90px;}

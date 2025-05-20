@@ -1,9 +1,10 @@
 <!doctype html>
-<html lang="en" data-bs-theme="auto">
+<html lang="en">
    <head>
       <title>Bootstrap Library</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" media="all" href="fonts/bootstrap-icons/font/bootstrap-icons.min.css" />
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
@@ -83,6 +84,14 @@
             <!-- row -->
          </div>
          <!-- main-container -->
+<div class=" text-nowrap rounded-3 p-1 m-3 text-bg-dark opacity-75">
+  <div class="d-block d-sm-none">Extra Small (xs) (<576px)</div>
+  <div class="d-none d-sm-block d-md-none">Small (sm) (>576px)</div>
+  <div class="d-none d-md-block d-lg-none">Medium (md) (>768px)</div>
+  <div class="d-none d-lg-block d-xl-none">Large (lg) (>992 px)</div>
+  <div class="d-none d-xl-block d-xxl-none">X-Large (xl) (>1200px)</div>
+  <div class="d-none d-xxl-block">XX-Large (xxl) (>1400px)</div>
+</div>
          <?php 
             require_once('inc/newsblock.inc');
             ?>

@@ -51,19 +51,9 @@ a:hover, a:focus {color: #000;}
 .social-links-wrap a {font-size:14px; color:#fff;}
 
 .version1 .campus-links .bi::before {color:#fff;font-size:1.5em;font-weight:900;}
-
-.version2 .social-links .bi::before {color:#fff;font-size:1.5em;font-weight:900;}
-
-#social-header .icon-text {color:#fff;
-  display: block;
-  margin: -5px 0;
-  font-size: 15px;
-  line-height: 10px;
-}
-
 .campus-links {display:grid; }
 
-.campus-links a, .social-links a {font-family:"Barlow Semi Condensed",Arial,Helvetica,sans-serif; color:#fff; text-transform: uppercase;font-size: 12px; font-weight:bold; letter-spacing:0.015em; padding-bottom:15px;}
+.campus-links a {font-family:"Barlow Semi Condensed",Arial,Helvetica,sans-serif; color:#fff; text-transform: uppercase;font-size: 12px; font-weight:bold; letter-spacing:0.015em; padding-bottom:15px;}
 
 .campus-links a:hover {color:#eeb310;}
 
@@ -125,8 +115,6 @@ a:hover, a:focus {color: #000;}
 
 .featured-image-and-title  {background-color: #000; background-image: url("/images/NetworkBlack.png"); min-height: auto;}
 
-
-
 .big-title-wrap {}
 
 .featured-image-and-title .pg-title {color: #fff;line-height: 1em;background-color: #000; padding: 15px;}
@@ -134,7 +122,7 @@ a:hover, a:focus {color: #000;}
 
  h1.pg-title  { font-family:"Barlow Semi Condensed",Arial,Helvetica,sans-serif; font-size: 2em; font-weight: 700; width: fit-content; text-transform: uppercase;}
 
-.featured-image-and-title .media-wrap{ padding:2em;}
+.featured-image-and-title .media-wrap{ /*padding:2em;*/}
 
 
 /* library/third nav */
@@ -250,7 +238,7 @@ a:hover, a:focus {color: #000;}
 }
 
 @media (max-width: 991px) {
-    .social-links {/*display:none;*/}  
+    .social-links {display:none;}  
   .tab-content>.tab-pane { display: block;opacity: 1;} 
 }
 
@@ -269,11 +257,15 @@ a:hover, a:focus {color: #000;}
     /*hero banner */
     .featured-image-and-title.has-media .big-title-wrap {/*bottom: 4.25em;*/}
 
-    .featured-image-and-title {height: 400px;
+  .version1  .featured-image-and-title {height: 400px; padding:3.5em;
         background-image: url("/images/hero-background.jpg");
         position: relative;margin-bottom:0px;}
 
-   .version2 .featured-image-and-title .media-wrap {height: 400px; padding:5em;
+   .version2 .featured-image-and-title {height: 300px;
+        background-image: url("/images/hero-background.jpg");
+        position: relative;margin-bottom:0px;}
+
+   .version2 .featured-image-and-title .media-wrap {height: 300px; /*padding:5em;*/
         position: relative !important;}
 
     .version2 .big-title-wrap {position: absolute !important;transform: translateY(-50%) !important; top: 50% !important; }

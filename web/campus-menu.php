@@ -97,7 +97,7 @@
                         <li><a  href="https://connect.sunybroome.edu/portal/groupvisits">Group Visits</a></li>
                         <li><a  href="https://broome1.wpenginepowered.com/admissions/suny-broome-on-the-move/">On the Move</a></li>
                      </ul>
-<h3><a href="#awb-off-canvas-menu-trigger">Transfers (No Link)</a></h3>
+<h3>No <i class="bi bi-link-45deg"></i> <a href="#awb-off-canvas-menu-trigger">Transfers</a></h3>
                      <ul >
                         <li><a  href="https://broome1.wpenginepowered.com/special-topics/transfer/">Transfer to SUNY Broome</a></li>
                         <li><a  href="https://broome1.wpenginepowered.com/transfer-planning/reverse-transfer/">Reverse Transfer</a></li>
@@ -148,22 +148,21 @@
                         <li><a  href="https://broome1.wpenginepowered.com/our-campus/on-campus-services/it-helpdesk/">IT/Helpdesk</a></li>
                         <li><a  href="https://broome1.wpenginepowered.com/veterans/">Veterans &amp; Military Affairs</a></li>
                      </ul>
-<h3><a  href="#awb-off-canvas-menu-trigger">Campus Policies &amp; Student Conduct (No Link)</a></h3>
+<h3>No <i class="bi bi-link-45deg"></i> <a  href="#awb-off-canvas-menu-trigger">Campus Policies &amp; Student Conduct</a></h3>
                      <ul >
                         <li><a  href="https://broome1.wpenginepowered.com/our-campus/academic-grievance-procedure/">Academic Grievance Procedure</a></li>
                         <li><a  href="https://broome1.wpenginepowered.com/osrr/student-code-of-conduct/">Student Code of Conduct</a></li>
                         <li><a  href="https://broome1.wpenginepowered.com/our-campus/complaints-grievances-appeals/">Student Complaints, Grievances, and Appeals</a></li>
                         <li><a  href="https://broome1.wpenginepowered.com/our-campus/civility-statement/">Civility Statement</a></li>
-                        <li><a  href="https://broome1.wpenginepowered.com/wp-content/uploads/2025/03/Family-Education-Rights-and-Privacy-Act-FERPA.pdf">Educational Rights &amp; Privacy Act</a></li>
-                        <li><i class="bi bi-file-earmark-pdf-fill" aria-hidden="true"></i><a href="#">Policies &amp; Prodecures (PDF?)</a></li>
-                        <li><i class="bi bi-file-earmark-pdf-fill" aria-hidden="true"></i><a href="#">Student Handbook (no link)</a></li>
-                        <li><i class="bi bi-file-earmark-pdf-fill" aria-hidden="true"></i><a href="https://broome1.wpenginepowered.com/wp-content/uploads/2025/03/4.4-Student-Rights-and-Responsibilities-Statement.pdf">Student Rights</a></li>
+                        <li><i class="bi bi-file-earmark-pdf-fill" aria-hidden="true"></i> <a  href="https://broome1.wpenginepowered.com/wp-content/uploads/2025/03/Family-Education-Rights-and-Privacy-Act-FERPA.pdf">Educational Rights &amp; Privacy Act</a></li>
+                        <li><i class="bi bi-file-earmark-pdf-fill" aria-hidden="true"></i> <a href="#">Policies &amp; Prodecures</a></li>
+                        <li><i class="bi bi-file-earmark-pdf-fill" aria-hidden="true"></i> No <i class="bi bi-link-45deg"></i> <a href="#">Student Handbook (no link)</a></li>
+                        <li><i class="bi bi-file-earmark-pdf-fill" aria-hidden="true"></i> <a href="https://broome1.wpenginepowered.com/wp-content/uploads/2025/03/4.4-Student-Rights-and-Responsibilities-Statement.pdf">Student Rights</a></li>
                      </ul>
 
               <h2>  <a  href="https://broome1.wpenginepowered.com/about/">About</a></h2>
-    <h3>Our Institution</h3>
+    <h3>No <i class="bi bi-link-45deg"></i> <a  href="https://broome1.wpenginepowered.com/academics-programs/#awb-off-canvas-menu-trigger">Our Institution</a></h3>
                      <ul >
-                        <li><a  href="#">Our Institution</a></li>
                         <li><a  href="https://broome1.wpenginepowered.com/about/area-highlights/">Area Highlights</a></li>
                         <li><a  href="https://news.sunybroome.edu/buzz/">The Buzz – Campus News</a></li>
                         <li><a  href="https://broome1.wpenginepowered.com/about/college-history/">College History</a></li>
@@ -176,16 +175,15 @@
                         <li><a  href="https://broome1.wpenginepowered.com/about/gatherings-and-assemblies-designated-public-areas/">Gatherings and Assemblies Designated Public Areas</a></li>
                      </ul>
 
-                 <h3>Our Vision & Mission</h3>
+                 <h3>No <i class="bi bi-link-45deg"></i><a  href="https://broome1.wpenginepowered.com/academics-programs/#awb-off-canvas-menu-trigger">Our Vision &amp; Mission</a></h3>
                          <ul >
-                            <li><a  href="#">Our Vision &amp; Mission</a></li>
                             <li><a  href="https://broome1.wpenginepowered.com/about/vision/">Vision, Mission, Values and Institutional Learning Outcomes</a></li>
                             <li><a  href="https://broome1.wpenginepowered.com/wp-content/uploads/2025/03/Civility-Statement.pdf">Civility Statement</a></li>
                             <li><a  href="https://broome1.wpenginepowered.com/diversity-inclusion/">Diversity &amp; Inclusion</a></li>
                          </ul>
-<h3>Our People and Employment</h3>
+<h3>No <i class="bi bi-link-45deg"></i> <a  href="#">Our People &amp; Employment</a></h3>
                          <ul>
-                            <li><a  href="#">Our People &amp; Employment</a></li>
+
                             <li><a  href="https://broome1.wpenginepowered.com/shared-governance/chancellors-awards/">Chancellor’s Award Winners</a></li>
                             <li><a  href="https://broome1.wpenginepowered.com/about/employment/">Human Resources &amp; Employment</a></li>
                             <li><a  href="https://broome1.wpenginepowered.com/careercenter/student-employment-resources/">Student Employment Resources</a> </li>
@@ -193,7 +191,7 @@
                             <li><a  href="https://broome1.wpenginepowered.com/about/student-employment-vacancies/">Student Employment Vacancies</a></li>
                             <li><a  href="https://broome1.wpenginepowered.com/faculty-and-staff/spirit-award/">SUNY Broome Spirit Award</a></li>
                          </ul>
-                     <h3>Information, Planning & Reporting</h3>
+                     <h3>No <i class="bi bi-link-45deg"></i> <a  href="#awb-off-canvas-menu-trigger">Information, Planning &amp; Reporting</a> </h3>
                      <ul >
                         <li><a  href="#awb-off-canvas-menu-trigger">Information, Planning &amp; Reporting</a> </li>
                         <li><a  href="https://broome1.wpenginepowered.com/about/annual-report/">Annual Report</a></li>
@@ -203,9 +201,8 @@
                         <li><a  href="https://broome1.wpenginepowered.com/ie/">Institutional Effectiveness</a></li>
                         <li><a  href="https://broome1.wpenginepowered.com/strategic-planning/">Strategic Planning</a></li>
                      </ul>
-<h3>Governance & Administration</h3>
+<h3>No <i class="bi bi-link-45deg"></i> <a  href="#awb-off-canvas-menu-trigger">Governance &amp; Administration</a></h3>
                      <ul >
-                        <li><a  href="#awb-off-canvas-menu-trigger">Governance &amp; Administration</a></li>
                         <li><a  href="https://broome1.wpenginepowered.com/bot/">Board of Trustees</a></li>
                         <li><a  href="https://broome1.wpenginepowered.com/about/office-of-the-president/">Office of The President</a></li>
                         <li><a  href="https://broome1.wpenginepowered.com/about/organizational-charts/">Organizational Charts</a></li>
@@ -213,9 +210,8 @@
                         <li><a  href="https://broome1.wpenginepowered.com/shared-governance/">Shared Governance</a></li>
                         <li><a  href="https://broome1.wpenginepowered.com/shared-governance/student-assembly/">Student Assembly</a></li>
                      </ul>
-<h3>Accessibility</h3>
+<h3><a  href="https://broome1.wpenginepowered.com/accessibility/">Accessibility</a></h3>
                      <ul >
-                        <li><a  href="https://broome1.wpenginepowered.com/accessibility/">Accessibility</a></li>
                         <li><a  href="https://broome1.wpenginepowered.com/accessibility/digital-content/">Digital Content Accessibility</a></li>
                         <li><a  href="https://broome1.wpenginepowered.com/accessibility/classroom/">Classroom Accessibility</a></li>
                         <li><a  href="https://broome1.wpenginepowered.com/accessibility/web/">Web Accessibility</a></li>
@@ -223,7 +219,6 @@
                      </ul>
 
             <h2> <a  href="https://broome1.wpenginepowered.com/careers-workforce/" >Careers &amp; Workforce</a> </h2>
-<h3>  </h3>
             <ul> 
                <li><a  href="https://broome1.wpenginepowered.com/careers-workforce/conted/">Continuing Education</a></li>
                <li><a  href="https://broome1.wpenginepowered.com/careers-workforce/workforce-development/">Workforce Development</a></li>
@@ -265,7 +260,7 @@
 </div><!-- /campus-menu -->
 
          <footer class="foot">
-            <span class="new-line">Powered by <a href="#">Snark</a>
+            <span class="new-line">Powered by <a href="#">Footer</a>
             </span>
          </footer>
       </div>

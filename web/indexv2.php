@@ -1,9 +1,10 @@
 <!doctype html>
-<html lang="en" data-bs-theme="auto">
+<html lang="en">
    <head>
       <title>Bootstrap Library</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" media="all" href="fonts/bootstrap-icons/font/bootstrap-icons.min.css" />
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
@@ -36,14 +37,14 @@
       <a class="navbar-brand" href="https://broome-bs1.ddev.site/"><img src="images/sunybroome-words_retina.png" alt="SUNY Broome Logo" height="27" width="250"></a> 
    </div>
 <?php 
-	require_once('inc/campusmenu.inc');
+	require_once('inc/campusmenuv2.inc');
 ?>
 </div><!-- secondnav-->
  
 
 <div class="featured-image-and-title has-media style-hdr-default placement-default">
-    <div class="media-wrap position-relative">							
-            <div class="big-title-wrap">
+    <div class="media-wrap container">							
+            <div class="big-title-wrap ">
 	            <h1 class="pg-title">Library</h1>
             </div><!-- big-title-wrap-->
     </div><!-- media-wrap-->
