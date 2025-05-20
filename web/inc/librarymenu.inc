@@ -1,5 +1,6 @@
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#libNavDropdown" aria-controls="#libNavDropdown"  aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
+			<button class="navbar-toggler campusbutton" type="button" data-bs-toggle="offcanvas" data-bs-target="#libNavDropdown" aria-controls="#libNavDropdown"  aria-expanded="false" aria-label="Toggle navigation">
+			        <span class="icon material-icons-sharp">menu</span>
+                    <span class="icon-text">library</span>
 			</button>
 
 

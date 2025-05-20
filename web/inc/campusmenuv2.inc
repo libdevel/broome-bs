@@ -1,10 +1,22 @@
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#campusNavDropdown" aria-controls="campusNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
+<div class="secondnav">
+<nav class="navbar campusnav bg-body-tertiary">
+   <div class="container">
+   <div class="campus-logo">
+      <a class="navbar-brand" href="https://broome-bs1.ddev.site/"><img src="images/sunybroome-words_retina.png" alt="SUNY Broome Logo" height="27" width="250"></a> 
+   </div>
+
+<button class="navbar-toggler campusbutton" type="button" data-bs-toggle="offcanvas" data-bs-target="#campusNavDropdown" aria-controls="campusNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon material-icons-sharp">menu</span>
+                    <span class="icon-text">campus</span>
 </button>
 
-   <div class="collapse navbar-collapse justify-content-end" id="campusNavDropdown">
-      <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-         <!-- Mega Menu 1 -->
+   <div class="offcanvas offcanvas-end" tabindex="-1" id="campusNavDropdown" aria-labelledby="campusNavDropdown">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Campus Main Menu</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div><!-- /header -->
+   <div class="offcanvas-body">
+      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
          <li class="nav-item"><a class="nav-link" href="https://broome1.wpenginepowered.com/academics-programs/">Academics &amp; Programs</a></li>
          <li class="nav-item"><a class="nav-link" href="https://broome1.wpenginepowered.com/admissions-costs/">Admissions &amp; Costs</a></li>
          <li class="nav-item"><a class="nav-link" href="https://broome1.wpenginepowered.com/our-campus/">Our Campus</a></li>
@@ -13,8 +25,7 @@
          <li class="nav-item"><a class="nav-link" href="https://broome1.wpenginepowered.com/community-alumni/">Foundation &amp; Alumni</a></li>
       <!--   <li class="nav-item"><a class="nav-link" href="https://broome1.wpenginepowered.com/apply/">Apply Now</a></li> -->
       </ul>
-      <!-- /collapse -->
-   </div>
-   <!-- /container -->
+       </div><!-- /offcanvas -->
+   </div><!-- /container -->
 </nav><!-- /campusnav -->
 

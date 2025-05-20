@@ -33,7 +33,7 @@
                      </div><!--col-sm-3-->
                      <div class="col-sm-8 order-sm-1">
                         <?php 
-                           require_once('inc/quicksearch1.inc');
+                           require_once('inc/quicksearch1a.inc');
                            ?>	
                      </div><!--col-sm-8-->
 

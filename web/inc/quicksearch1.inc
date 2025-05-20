@@ -24,7 +24,7 @@
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Everything</button>
     </h2>
 
-      <div id="collapseOne" class="accordion-collapse collapse show  d-lg-block" aria-labelledby="headingOne" data-bs-parent="#myTabContent">
+      <div id="collapseOne" class="accordion-collapse collapse show  d-lg-block" aria-labelledby="tab-1" data-bs-parent="#myTabContent">
          <div class="accordion-body p-0">
       <p>Search Primo for almost everything:</p>
       <form name="searchFormEv" role="search" id="all-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/search" onsubmit="searchPrimoEv();" enctype="application/x-www-form-urlencoded; charset=utf-8">

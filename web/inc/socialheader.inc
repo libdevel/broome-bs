@@ -7,8 +7,9 @@
                    <div class="campus-logo">
                       <a class="navbar-brand" href="https://broome1.wpenginepowered.com/"><img src="/images/SB-Wordmark_Gold.png" alt="SUNY Broome Logo" height="27" width="250"></a> 
                    </div>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#campuslinksNavDropdown" aria-controls="campuslinksNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="bi bi-three-dots"></i>
+                  <button class="navbar-toggler campusbutton" type="button" data-bs-toggle="collapse" data-bs-target="#campuslinksNavDropdown" aria-controls="campuslinksNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon material-icons-sharp">more_horiz</span>
+                    <span class="icon-text">campus</span>
                   </button>
 
             
