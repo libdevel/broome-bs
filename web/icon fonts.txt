@@ -1,0 +1,61 @@
+<i class="fa-solid fa-ellipsis"></i>
+
+
+broome
+
+class="awb-menu__m-collapse-icon-open awb-menu__m-collapse-icon-open_no-text fa-ellipsis-h fas"
+
+.fa-ellipsis-h:before {content: "\f141";}
+
+fa-ellipsis-h
+
+broome menu 2 - bars
+
+awb-menu__m-collapse-icon-open awb-menu__m-collapse-icon-open_no-text fa-bars fas
+
+<i class="fa-solid fa-bars"></i>
+
+.fa-bars:before {content: "\f0c9";}
+
+
+
+.awb-icon-facebook::before {content: "\e604";}
+
+
+
+
+
+bootstrap
+
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+</svg>
+
+
+
+<i class="fa-brands fa-facebook-f"></i>
+
+<svg xmlns="http://www.w3.org/2000/svg" class="svgicon"  width="16" height="16" fill="currentColor" class="fa-brands fa-facebook-f" viewBox="0 0 14 14"><path fill="currentColor" d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" class="svgicon" aria-hidden="true" focusable="false" viewBox="0 0 16 16"><path fill="currentColor" d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg>
+
+
+https://docs.fontawesome.com/web/add-icons/svg-bare
+
+<div class="time-to-get-ill">
+  <style>
+    .icon {
+      width: 1em;
+      height: 1em;
+      vertical-align: -0.125em;
+    }
+  </style>
+  What time is it...
+  <svg xmlns="http://www.w3.org/2000/svg" class="svgicon" aria-hidden="true" focusable="false" viewBox="0 0 512 512">
+    <path
+      fill="currentColor"
+      d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"
+    />
+  </svg>
+</div>

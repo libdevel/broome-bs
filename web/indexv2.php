@@ -11,7 +11,7 @@
 ?>
 
 <div class="secondnav">
-<nav class="navbar campusnav navbar-expand-lg bg-body-tertiary">
+<nav class="navbar campusnav navbar-expand-xxl bg-body-tertiary">
    <div class="container">
    <div class="campus-logo">
       <a class="navbar-brand" href="https://broome-bs1.ddev.site/"><img src="images/sunybroome-words_retina.png" alt="SUNY Broome Logo" height="27" width="250"></a> 
