@@ -1,7 +1,7 @@
 
       <div id="social-header">
          <div class="social-links ">
-            <nav class="navbar bg-dark" data-bs-theme="dark">
+            <nav class="navbar bg-dark navbar-expand-xl" data-bs-theme="dark">
                <div class="container">
 
                     <div class="social-links-wrap">																														
@@ -9,7 +9,7 @@
                     <a class="px-1"  href="https://twitter.com/sunybroome" title="Twitter" aria-label="Twitter" rel="noopener noreferrer" target="_blank"><i class="bi bi-twitter-x"></i></a>
                     <a class="px-1"  href="https://instagram.com/sunybroomecc" title="Instagram" aria-label="Instagram" rel="noopener noreferrer" target="_blank" ><i class="bi bi-instagram"></i></a>
                     <a class="px-1"  href="https://youtube.com/user/sunybroome" title="YouTube" aria-label="YouTube" rel="noopener noreferrer" target="_blank"><i class="bi bi-youtube"></i></a>
-                    <a class="px-2" href="https://www.linkedin.com/school/sunybroome/" title="LinkedIn" aria-label="LinkedIn" rel="noopener noreferrer" target="_blank"><i class="bi bi-linkedin"></i></a>																					
+                    <a class="px-1" href="https://www.linkedin.com/school/sunybroome/" title="LinkedIn" aria-label="LinkedIn" rel="noopener noreferrer" target="_blank"><i class="bi bi-linkedin"></i></a>																					
                     </div> <!-- /social-links-wrap -->
 
                   <button class="campusbutton navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#campuslinksNavDropdown" aria-controls="campuslinksNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

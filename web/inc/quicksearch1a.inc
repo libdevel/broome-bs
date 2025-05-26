@@ -1,7 +1,7 @@
 <div class="frontdecor">
 <div class="homepagesearch tabs">
 
-<ul class="nav nav-tabs" >
+<ul class="nav flex-column nav-tabs flex-sm-row" role="tablist">
 	<li class="nav-item"><a class="nav-link active" href="#tab-1" data-bs-toggle="tab">Everything</a></li>
 	<li class="nav-item"><a class="nav-link" href="#tab-2" data-bs-toggle="tab">Articles</a></li>
 	<li class="nav-item"><a class="nav-link" href="#tab-3" data-bs-toggle="tab">Books & Media</a></li>
@@ -120,10 +120,7 @@
 				<input type="submit" class="btn btn-info" value="Search" id="go6" title="Search" onclick="searchPrimoILL()"   />
 			</div>
 				</form> 					
-	
-
-
-	</div><!-- tab 6-->
+	</div><!-- tab 5-->
 	
 </div><!-- tab-content -->
 

@@ -27,7 +27,7 @@
 
 
 <div class="thirdnav">
-<nav class="navbar campusnav navbar-expand-lg bg-body-tertiary">
+<nav class="navbar libnav navbar-expand-lg bg-body-tertiary">
    <div class="container">
    <div class="library-logo">
    </div>

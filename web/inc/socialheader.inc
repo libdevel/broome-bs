@@ -1,8 +1,8 @@
 
       <div id="social-header">
-         <div class="campus-links">
+         <div class="social-links ">
            
-             <nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark">
+             <nav class="navbar bg-dark navbar-expand-xxl" data-bs-theme="dark">
                <div class="container">
                    <div class="campus-logo">
                       <a class="navbar-brand" href="https://broome1.wpenginepowered.com/"><img src="/images/SB-Wordmark_Gold.png" alt="SUNY Broome Logo" height="27" width="250"></a> 

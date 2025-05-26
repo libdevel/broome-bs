@@ -60,6 +60,8 @@
 						<li class="nav-item"><a class="nav-link" href="https://sunybroome.info/library/help.php">Need Help?</a></li>
 						<li class="nav-item"><a class="nav-link" href="index.php">V1</a></li>
 						<li class="nav-item"><a class="nav-link" href="indexv2.php">V2</a></li>
+						<li class="nav-item"><a class="nav-link" href="indexbs3.php">bs3</a></li>
+						<li class="nav-item"><a class="nav-link" href="index_penn.php">penn</a></li>
 					</ul>
 				</div><!-- /navbar-collaspe -->
 </nav>
