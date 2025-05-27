@@ -2,7 +2,7 @@
 <nav class="navbar campusnav bg-body-tertiary navbar-expand-xl">
    <div class="container">
    <div class="campus-logo">
-      <a class="navbar-brand" href="https://broome-bs1.ddev.site/"><img src="images/sunybroome-words_retina.png" alt="SUNY Broome Logo" height="27" width="250"></a> 
+      <a class="navbar-brand" href="https://sunybroome.edu"><img src="images/sunybroome-words_retina.png" alt="SUNY Broome Logo" height="27" width="250"></a> 
    </div>
 
 <button class="navbar-toggler campusbutton" type="button" data-bs-toggle="offcanvas" data-bs-target="#campusNavDropdown" aria-controls="campusNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

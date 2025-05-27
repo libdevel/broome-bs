@@ -23,7 +23,7 @@
                           <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Campus Menu 1</h5>
                           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div><!-- /header -->
-        <div class="offcanvas-body">
+                    <div class="offcanvas-body">
                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item"><a class="nav-link" href="https://broome1.wpenginepowered.com/directory/">Directory</a></li>
                         <li class="nav-item"><a class="nav-link" href="https://broome1.wpenginepowered.com/community-business/">Community &amp; Business</a></li>
@@ -49,8 +49,8 @@
                         <li class="nav-item"><a class="nav-link" href="https://mycollege.sunybroome.edu">MyCollege</a></li>
                         <li class="nav-item"><a class="nav-link" href="https://broome1.wpenginepowered.com/community-alumni/give/">♥Give</a></li>
                      </ul>
-                  </div><!-- /offcanvas -->
-               </div><!-- /container-fluid -->
+                  </div><!-- /offcanvas body -->
+               </div><!-- /offcanvas -->
             </nav>
    </div><!-- /social-links-->
       </div><!-- /social-header -->
