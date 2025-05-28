@@ -1,4 +1,10 @@
-			<button class="navbar-toggler campusbutton" type="button" data-bs-toggle="offcanvas" data-bs-target="#libNavDropdown" aria-controls="#libNavDropdown"  aria-expanded="false" aria-label="Toggle navigation">
+<div class="thirdnav">
+<nav class="navbar libnav navbar-expand-lg bg-body-tertiary">
+   <div class="container">
+         <div class="library-logo"> </div>
+			
+
+			<button class="navbar-toggler campusbutton ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#libNavDropdown" aria-controls="#libNavDropdown"  aria-expanded="false" aria-label="Toggle navigation">
 			        <span class="icon material-icons-sharp">menu</span>
                     <span class="icon-text">library</span>
 			</button>
@@ -9,7 +15,8 @@
               <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Library Menu</h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div><!-- /header -->
-					<ul class="navbar-nav">
+   <div class="offcanvas-body">
+					<ul class="navbar-nav  flex-grow-1 pe-3">
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="about-library.php" title="">About Us<span class="caret"></span></a>
 							<ul class="dropdown-menu">
@@ -67,7 +74,8 @@
 						<li class="nav-item"><a class="nav-link" href="indexbs3.php">bs3</a></li>
 						<li class="nav-item"><a class="nav-link" href="index_penn.php">penn</a></li>
 					</ul>
+       </div><!-- /offcanvas -->
 				</div><!-- /navbar-collaspe -->
-				</div><!-- /navbar-collaspe -->
+				</div><!-- /justify-content-end -->
 </nav>
-
+</div><!-- /thirdnav -->

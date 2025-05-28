@@ -19,22 +19,18 @@
 
 <div class="featured-image-and-title">
     <div class="media-wrap container">							
-            <div class="big-title-wrap ">
-	            <h1 class="pg-title">Library</h1>
+            <div class="big-title-wrap">
+                <h1 class="pg-title">Library</h1>
             </div><!-- big-title-wrap-->
     </div><!-- media-wrap-->
 </div><!-- featured-image-->
 
 
-<div class="thirdnav">
-<nav class="navbar libnav navbar-expand-lg bg-body-tertiary">
-   <div class="container">
-   <div class="library-logo">
-   </div>
+
 <?php 
-	require_once('inc/librarymenu.inc');
+	require_once('inc/librarymenuv2.inc');
 ?>
-</div><!-- /thirdnav -->
+
 
  <div class="content-wrap mt-3"> 
 <div class="container main-container">

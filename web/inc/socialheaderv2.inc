@@ -6,9 +6,9 @@
 
                     <div class="social-links-wrap">																														
                     <a class="px-1" href="https://facebook.com/sunybroome" title="Facebook" aria-label="Facebook" rel="noopener noreferrer" target="_blank" ><i class="bi bi-facebook"></i></a>
-                    <a class="px-1"  href="https://twitter.com/sunybroome" title="Twitter" aria-label="Twitter" rel="noopener noreferrer" target="_blank"><i class="bi bi-twitter-x"></i></a>
-                    <a class="px-1"  href="https://instagram.com/sunybroomecc" title="Instagram" aria-label="Instagram" rel="noopener noreferrer" target="_blank" ><i class="bi bi-instagram"></i></a>
-                    <a class="px-1"  href="https://youtube.com/user/sunybroome" title="YouTube" aria-label="YouTube" rel="noopener noreferrer" target="_blank"><i class="bi bi-youtube"></i></a>
+                    <a class="px-1" href="https://twitter.com/sunybroome" title="Twitter" aria-label="Twitter" rel="noopener noreferrer" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                    <a class="px-1" href="https://instagram.com/sunybroomecc" title="Instagram" aria-label="Instagram" rel="noopener noreferrer" target="_blank" ><i class="bi bi-instagram"></i></a>
+                    <a class="px-1" href="https://youtube.com/user/sunybroome" title="YouTube" aria-label="YouTube" rel="noopener noreferrer" target="_blank"><i class="bi bi-youtube"></i></a>
                     <a class="px-1" href="https://www.linkedin.com/school/sunybroome/" title="LinkedIn" aria-label="LinkedIn" rel="noopener noreferrer" target="_blank"><i class="bi bi-linkedin"></i></a>																					
                     </div> <!-- /social-links-wrap -->
 
