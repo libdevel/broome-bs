@@ -1,6 +1,14 @@
-			<button class="navbar-toggler campusbutton" type="button" data-bs-toggle="offcanvas" data-bs-target="#libNavDropdown" aria-controls="#libNavDropdown"  aria-expanded="false" aria-label="Toggle navigation">
-			        <span class="icon material-icons-sharp">menu</span>
-                    <span class="icon-text">library</span>
+<div class="thirdnav">
+<nav class="navbar libnav navbar-expand-lg bg-body-tertiary">
+   <div class="container">
+         <div class="library-logo"> </div>
+			
+
+			<button class="navbar-toggler campusbutton ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#libNavDropdown" aria-controls="#libNavDropdown"  aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg>
+                 <span class="icon-text">library</span>
 			</button>
 
 				<div class="justify-content-end">
@@ -9,7 +17,8 @@
               <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Library Menu</h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div><!-- /header -->
-					<ul class="navbar-nav">
+   <div class="offcanvas-body">
+					<ul class="navbar-nav  flex-grow-1 pe-3">
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="about-library.php" title="">About Us<span class="caret"></span></a>
 							<ul class="dropdown-menu">
@@ -52,7 +61,7 @@
 							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="about-library.php" title="">Services<span class="caret"></span></a>  
 							<ul class="dropdown-menu">
 								<li><a class="dropdown-item" href="https://sunybroome.info/library/book-librarian" title="">Book a Librarian</a></li>
-								<li><a class="dropdown-item" href="https://sunybroome.info/library/faculty-support" title="">Faculty Support</a></li>
+								<li><a class="dropdown-item" href="facultyservices.php" title="">Faculty Support</a></li>
 								<li><a class="dropdown-item" href="https://sunybroome.info/library/interlibrary-loan" title="">Interlibrary Loan</a></li>
 						        <li><a class="dropdown-item" href="https://sunybroome.info/library/oer/oer-home.php" title="Open Educational Resources">OER </a></li>
 								<li><a class="dropdown-item" href="https://sunybroome.info/library/purchase-request" title="">Purchase Request</a></li>
@@ -65,7 +74,8 @@
 						<li class="nav-item"><a class="nav-link" href="index.php">V1</a></li>
 						<li class="nav-item"><a class="nav-link" href="indexv2.php">V2</a></li>
 					</ul>
+       </div><!-- /offcanvas -->
 				</div><!-- /navbar-collaspe -->
-				</div><!-- /navbar-collaspe -->
+				</div><!-- /justify-content-end -->
 </nav>
-
+</div><!-- /thirdnav -->

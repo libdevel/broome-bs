@@ -1,30 +1,32 @@
 
       <div id="social-header">
          <div class="social-links ">
-            <nav class="navbar bg-dark navbar-expand-xl" data-bs-theme="dark">
+           
+             <nav class="navbar bg-dark navbar-expand-xxl" data-bs-theme="dark">
                <div class="container">
-
-                    <div class="social-links-wrap">																														
-                    <a class="px-1" href="https://facebook.com/sunybroome" title="Facebook" aria-label="Facebook" rel="noopener noreferrer" target="_blank" ><i class="bi bi-facebook"></i></a>
-                    <a class="px-1" href="https://twitter.com/sunybroome" title="Twitter" aria-label="Twitter" rel="noopener noreferrer" target="_blank"><i class="bi bi-twitter-x"></i></a>
-                    <a class="px-1" href="https://instagram.com/sunybroomecc" title="Instagram" aria-label="Instagram" rel="noopener noreferrer" target="_blank" ><i class="bi bi-instagram"></i></a>
-                    <a class="px-1" href="https://youtube.com/user/sunybroome" title="YouTube" aria-label="YouTube" rel="noopener noreferrer" target="_blank"><i class="bi bi-youtube"></i></a>
-                    <a class="px-1" href="https://www.linkedin.com/school/sunybroome/" title="LinkedIn" aria-label="LinkedIn" rel="noopener noreferrer" target="_blank"><i class="bi bi-linkedin"></i></a>																					
-                    </div> <!-- /social-links-wrap -->
-
-                  <button class="campusbutton navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#campuslinksNavDropdown" aria-controls="campuslinksNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                   <div class="campus-logo">
+                      <a class="navbar-brand" href="https://broome1.wpenginepowered.com/"><img src="/images/SB-Wordmark_Gold.png" alt="SUNY Broome Logo" height="27" width="250"></a> 
+                   </div>
+                  <button class="navbar-toggler campusbutton" type="button" data-bs-toggle="collapse" data-bs-target="#campuslinksNavDropdown" aria-controls="campuslinksNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icon material-icons-sharp">more_horiz</span>
                     <span class="icon-text">campus</span>
                   </button>
 
-  
-                  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="campuslinksNavDropdown" aria-controls="campuslinksNavDropdown">
-                        <div class="offcanvas-header">
-                          <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Campus Menu 1</h5>
-                          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div><!-- /header -->
-                    <div class="offcanvas-body">
-                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            
+                  <div class="collapse navbar-collapse justify-content-end" id="campuslinksNavDropdown">
+                     <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Campus Menu</a>
+                           <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="https://broome1.wpenginepowered.com/academics-programs/">Academics &amp; Programs</a></li>
+                              <li><a class="dropdown-item" href="https://broome1.wpenginepowered.com/admissions-costs/">Admissions &amp; Costs</a> </li>
+                              <li><a class="dropdown-item" href="https://broome1.wpenginepowered.com/our-campus/">Our Campus</a></li>
+                              <li><a class="dropdown-item" href="https://broome1.wpenginepowered.com/about/">About</a></li>
+                              <li><a class="dropdown-item" href="https://broome1.wpenginepowered.com/careers-workforce/">Careers &amp; Workforce</a></li>
+                              <li><a class="dropdown-item" href="https://broome1.wpenginepowered.com/community-alumni/">Foundation &amp; Alumni</a></li>
+                           </ul>
+                        </li>
                         <li class="nav-item"><a class="nav-link" href="https://broome1.wpenginepowered.com/directory/">Directory</a></li>
                         <li class="nav-item"><a class="nav-link" href="https://broome1.wpenginepowered.com/community-business/">Community &amp; Business</a></li>
                         <li class="nav-item dropdown">
@@ -49,8 +51,8 @@
                         <li class="nav-item"><a class="nav-link" href="https://mycollege.sunybroome.edu">MyCollege</a></li>
                         <li class="nav-item"><a class="nav-link" href="https://broome1.wpenginepowered.com/community-alumni/give/">♥Give</a></li>
                      </ul>
-                  </div><!-- /offcanvas body -->
-               </div><!-- /offcanvas -->
+                  </div><!-- /collapse -->
+               </div><!-- /container -->
             </nav>
-   </div><!-- /social-links-->
+         </div><!-- /campus-links -->
       </div><!-- /social-header -->
