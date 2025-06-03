@@ -216,6 +216,8 @@ a:hover, a:focus {color: #000;}
 
 .cankle h3, .cankle h4 {color: #fff;}
 
+.cankle svg {margin-right: 0.4rem;}
+
 .cankle a {color: #fff; text-decoration:none; font-weight:700;}
 .cankle a:hover, .cankle a:focus {color: #eeb310; text-decoration:underline; font-weight:700;}
 
