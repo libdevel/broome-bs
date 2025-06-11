@@ -1,7 +1,8 @@
+<h2>Quicksearch</h2>
+
 <div class="frontdecor">
 <div class="homepagesearch tabs">
 
-<h2>Quicksearch</h2>
 
 <ul class="nav nav-tabs d-none d-lg-flex" id="myTab" role="tablist">
    <li class="nav-item" role="presentation">

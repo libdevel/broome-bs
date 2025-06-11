@@ -6,35 +6,20 @@
    </head>
    <body class="version2">
 
-<?php 
-	require_once('inc/socialheaderv1.inc');
-?>
+   <header role="banner">
+      <?php 
+         require_once('inc/socialheaderv1.inc');
+         require_once('inc/campusmenuv1.inc');
+         require_once('inc/featuredimage.inc');
+         require_once('inc/librarymenuv1.inc');
+         ?>
+   </header>
 
 
-<?php 
-	require_once('inc/campusmenuv1.inc');
-?>
-</div><!-- secondnav-->
- 
-
-<div class="featured-image-and-title">
-    <div class="media-wrap container">							
-            <div class="big-title-wrap">
-                <h1 class="pg-title">Library</h1>
-            </div><!-- big-title-wrap-->
-    </div><!-- media-wrap-->
-</div><!-- featured-image-->
-
-
-
-<?php 
-	require_once('inc/librarymenuv1.inc');
-?>
-
-
- <div class="content-wrap mt-3"> 
-<div class="container main-container">
-    <div class="row">
+<main role="main" id="main" class="mb-3">
+   <a id="main-content" tabindex="-1"></a>
+ <div class="container">
+         <div class="row g-0">
 
         <div class="col-sm-9 content" role="main">
 		     <div class="highlighted">  
@@ -178,14 +163,14 @@
 
 
 
-        </div><!-- col-sm-9 -->
+</div><!-- col-sm-9 -->
 
 
   <?php 
   	require_once('inc/sidenav.inc');
   ?>
-   </div><!-- row -->
-      </div><!-- main-container -->
+   </div><!-- row g-0-->
+
   
  
 
@@ -193,17 +178,14 @@
 
      
  </div> <!-- content-wrap -->
-
+</main>
 
 	<footer class="footer" role="contentinfo">
 
-		<?php 
-			require_once('inc/cankle.inc');
-		?>
-
-	 <?php 
-	  	require_once('inc/footer.inc');
-	  ?>
+      <?php 
+         require_once('inc/cankle.inc');
+         require_once('inc/footer.inc');
+         ?>
 <div class=" text-nowrap rounded-3 p-1 m-3 text-bg-dark opacity-75">
   <div class="d-block d-sm-none">Extra Small (xs) (<576px)</div>
   <div class="d-none d-sm-block d-md-none">Small (sm) (>576px)</div>

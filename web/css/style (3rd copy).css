@@ -1,0 +1,307 @@
+/*  style guide 
+
+#232323 (Black)
+#eeb310 (Gold)
+#d3bc8d (Realistic Gold)
+#fbfaf5 (Off-White)
+
+*/
+
+
+
+/* fonts */
+
+.roboto-slab-<uniquifier>{font-family:"Roboto Slab",serif;font-optical-sizing:auto;font-weight:<weight>;font-style:normal}.barlow-semi-condensed-thin{font-family:"Barlow Semi Condensed",sans-serif;font-weight:100;font-style:normal}.barlow-semi-condensed-extralight{font-family:"Barlow Semi Condensed",sans-serif;font-weight:200;font-style:normal}.barlow-semi-condensed-light{font-family:"Barlow Semi Condensed",sans-serif;font-weight:300;font-style:normal}.barlow-semi-condensed-regular{font-family:"Barlow Semi Condensed",sans-serif;font-weight:400;font-style:normal}.barlow-semi-condensed-medium{font-family:"Barlow Semi Condensed",sans-serif;font-weight:500;font-style:normal}.barlow-semi-condensed-semibold{font-family:"Barlow Semi Condensed",sans-serif;font-weight:600;font-style:normal}.barlow-semi-condensed-bold{font-family:"Barlow Semi Condensed",sans-serif;font-weight:700;font-style:normal}.barlow-semi-condensed-extrabold{font-family:"Barlow Semi Condensed",sans-serif;font-weight:800;font-style:normal}.barlow-semi-condensed-black{font-family:"Barlow Semi Condensed",sans-serif;font-weight:900;font-style:normal}.barlow-semi-condensed-thin-italic{font-family:"Barlow Semi Condensed",sans-serif;font-weight:100;font-style:italic}.barlow-semi-condensed-extralight-italic{font-family:"Barlow Semi Condensed",sans-serif;font-weight:200;font-style:italic}.barlow-semi-condensed-light-italic{font-family:"Barlow Semi Condensed",sans-serif;font-weight:300;font-style:italic}.barlow-semi-condensed-regular-italic{font-family:"Barlow Semi Condensed",sans-serif;font-weight:400;font-style:italic}.barlow-semi-condensed-medium-italic{font-family:"Barlow Semi Condensed",sans-serif;font-weight:500;font-style:italic}.barlow-semi-condensed-semibold-italic{font-family:"Barlow Semi Condensed",sans-serif;font-weight:600;font-style:italic}.barlow-semi-condensed-bold-italic{font-family:"Barlow Semi Condensed",sans-serif;font-weight:700;font-style:italic}.barlow-semi-condensed-extrabold-italic{font-family:"Barlow Semi Condensed",sans-serif;font-weight:800;font-style:italic}.barlow-semi-condensed-black-italic{font-family:"Barlow Semi Condensed",sans-serif;font-weight:900;font-style:italic}
+
+
+@font-face {
+    font-family: 'albertus_mediumregular';
+	font-weight:400;
+	font-style: normal;
+	font-display: block;
+    src: url('../fonts/albr55w-webfont.eot');
+    src: url('../fonts/albr55w-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/albr55w-webfont.woff') format('woff'),
+         url('../fonts/albr55w-webfont.svg#albertus_mediumregular') format('svg');
+}
+
+
+
+@font-face {
+  font-family: 'Material Icons Sharp';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/material-icons/oPWQ_lt5nv4pWNJpghLP75WiFR4kLh3kvmvR.woff2') format('woff2');
+}
+
+.material-icons-sharp {
+  font-family: 'Material Icons Sharp';font-weight: normal;font-style: normal;font-size: 24px;
+  line-height: 1;letter-spacing: normal;text-transform: none;
+  display: inline-block;white-space: nowrap;word-wrap: normal;direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;}
+
+
+body {color:#232323; font-size: 16px; line-height:1.66; margin: 0;
+    font-family: "Roboto Slab",Arial,Helvetica,sans-serif;}
+
+a {color:#6e5212; 
+text-decoration-line: underline;
+text-decoration-style: dotted;}
+
+a:hover, a:focus {color: #000;}
+
+.btn-info {color: #fff;border-color: #022241;background-image: linear-gradient(#04519b,#033c73 60%,#02325f);}
+
+.justify-content-end {justify-content: flex-end !important;}
+
+
+
+#social-header {border-top: 10px solid #eeb310; background-color: #000; min-height:65px; color:#fff;}
+
+/* campus nav - top menu */
+.social-links-wrap a {font-size:14px; color:#fff;}
+
+
+
+.social-links a {font-family:"Barlow Semi Condensed",Arial,Helvetica,sans-serif; color:#fff; text-transform: uppercase;font-size: 14px; font-weight:bold; letter-spacing:0.015em; padding-bottom:15px;}
+
+.campusnav a {font-family:"Barlow Semi Condensed",Arial,Helvetica,sans-serif; font-size:14px;color:#000; text-transform: uppercase; font-weight:bold; letter-spacing:0.015em; padding-bottom:15px;}
+
+.libnav a {font-family:"Barlow Semi Condensed",Arial,Helvetica,sans-serif; color:#000; text-transform: uppercase;font-size: 14px; font-weight:bold;
+    letter-spacing:0.015em; padding-bottom:15px;}
+
+.libnav a.navbar-brand {/*padding-top: 30px;*/ margin-top:10px; font-family:'albertus_mediumregular';
+     min-height:70px;font-size: 1.0em; text-transform: none;} 
+
+.campusnav-wrap a {/*font-size: 14px;*/}
+
+
+
+/*  megamenu dropdown and fly.... */
+
+.megaumenu {border: none; border-radius: 0;padding: 0.7em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);}
+
+.dropdown-menu {border: none; }
+
+.megamenu.show {display: flex;}
+.megamenu ul {list-style: none;padding: 0; line-height:1.33em;}
+
+.megamenu li .dropdown-item {color: #000;font-size: 14px; padding: 0.5em 1em;
+    text-transform: none; font-weight: 500; border-bottom: 1px solid #232323;}
+
+.megamenu li:first-child a {font-weight: bold; font-size: 20px;text-transform: uppercase; font-family:"Barlow Semi Condensed",Arial,Helvetica,sans-serif;/*color: #516beb;*/}
+
+.megamenu li .dropdown-item .bigfat-menu  {/*font-weight: bold;font-size: 14px;
+  text-transform: uppercase;color: #516beb;*/}
+
+.megamenu a {text-transform: none; font-family: "Roboto Slab",Arial,Helvetica,sans-serif;}
+.megamenu a:hover  {color: #eeb310;}
+
+.dropdown-item {white-space: wrap;}
+
+
+/*  button styles */
+#social-header .campusbutton {width: 60px;height: 50px;padding: 0;color: #fff;}
+.campusnav .campusbutton, .libnav .campusbutton  {width: 60px;height: 50px;padding: 0;color: #000; border:0px;}
+
+#social-header .icon, .campusnav .icon {margin: -5px;font-size: 26px;line-height: 26px;}
+#social-header .icon-text  {color:#fff; display: block;margin: -5px 0;
+  font-size: 12px;line-height: 10px;}
+
+.campusnav .icon-text, .libnav .icon-text  {color:#000;display: block;margin: -5px 0;
+  font-size: 12px;line-height: 10px;}
+
+
+#social-header .campusbutton {width: 60px;height: 50px;padding: 0;color: #fff;}
+#social-header .icon, .campusnav .icon {margin: -5px;font-size: 26px;line-height: 26px;}
+#social-header .icon-text  {color:#fff;display: block;margin: -5px 0;
+  font-size: 12px;line-height: 10px;}
+
+
+.libnav .campusbutton {float:right;}
+
+/* hero image */
+
+
+.version1 .featured-image-and-title, .version2 .featured-image-and-title {background-color: #000; background-image: url("/images/NetworkBlack.png"); min-height: auto;}
+
+.version1 .featured-image-and-title  {padding-top:10px;}
+
+.big-title-wrap {}
+
+.featured-image-and-title .pg-title {color: #fff;line-height: 1em;background-color: #000; padding: 15px;}
+
+ h1.pg-title  { font-family:"Barlow Semi Condensed",Arial,Helvetica,sans-serif; font-size: 2em; font-weight: 700; width: fit-content; text-transform: uppercase;}
+
+
+
+/* quick search */
+
+
+
+.homepagesearch {background-color: #fff;}
+
+.homepagesearch .nav-tabs  {background-color: #fff;}
+
+.homepagesearch .tab-content {min-height: 9.7em;
+  background-color: #fff;
+  padding:20px 10px 20px 10px;/*margin-bottom: 20px;*/}
+
+
+.nav-tabs > li > button { font-size: 1em; font-weight:bold;}
+
+.nav-tabs .nav-link {border: 1px solid #eee; color:#6e5212; }
+
+
+.version1 .nav-link {padding:0.25rem;}
+
+.library-links {padding-top: 10px;margin-bottom: 0px;clear: both;}
+
+
+/* Lib chat */
+
+.lcs_slide_out-r {
+    top: 50% !important;
+}
+
+.lcs_slide_out div.lcs_header a {font-family: "Roboto Slab",Arial,Helvetica,sans-serif; font-size:18px;}
+
+
+
+/* libcal hours */
+.hours-block {background-color: #fff; padding: 20px; margin-bottom:10px;}
+	
+.libraryHoursContainer {min-height:55px;}
+
+.hours-today { border-spacing: 0; border-collapse: collapse; width: 100%; margin-bottom:0px;}
+.hours-today-row td, .hours-today-row th { padding: 8px 5px; }
+
+
+/* a-z list */
+.s-lg-icons {display: inline;}
+.s-lg-icons ul {list-style: none;padding: 0;margin: 0;display: inline;}
+.s-lg-icons li {display: inline; padding: 0 2px;}
+
+.s-lg-icon {max-height: 20px; max-width: 20px;}
+
+.label {display: inline;padding: .2em .6em .3em;
+    font-size: 75%;font-weight: 700;line-height: 1;color: #fff;text-align: center;
+    white-space: nowrap;vertical-align: baseline;border-radius: .25em;}
+
+.alert-success, .label-success {color: #0f5132;background-color: #d1e7dd;border-color: #badbcc;}
+.sr-only {position: absolute;width: 1px;height: 1px;padding: 0;margin: -1px;overflow: hidden;clip: rect(0, 0, 0, 0);border: 0;}
+
+
+/*  books and news blocks */
+.more-link {clear:both; float:right;}
+
+
+/* new books block */
+.region-books-display li {float:left;margin-left:20px; margin-top:20px;list-style-image: none;
+    list-style-type: none;}
+
+
+.footer {margin-top:20px;}
+
+/* cankle */
+.cankle {background-color:#232323; font-size:16px; padding-top:100px;color: #fff;}
+.cankle ul {padding-top:10px; padding-left:0;}
+
+.cankle li {margin-left:0px;
+	list-style-image: none;list-style-type: none;
+	margin-bottom: 10px;padding-bottom: 10px;
+ border-bottom: 1px solid #e7e6e6;}
+
+.cankle h3, .cankle h4 {color: #fff;}
+
+.cankle svg {margin-right: 0.4rem;}
+
+.cankle a {color: #fff; text-decoration:none; font-weight:700;}
+.cankle a:hover, .cankle a:focus {color: #eeb310; text-decoration:underline; font-weight:700;}
+
+.cankle .broome-yellow a {color:#eeb310; margin-top:10px; font-family:'albertus_mediumregular';
+     min-height:70px;font-size: 1.0em; text-transform: none;}
+
+
+.footerfooter {background-color:#d3bc8d; padding: 30px 20px 30px 20px;}
+
+.footerfooter p {font-weight:700;}
+.footerfooter a {color: #232323;}
+
+
+.fakeimg {background: #aaa; padding:5px;margin-right:5px;}
+
+
+
+/* X-Small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .hours-block {margin-bottom:10px;}
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+      
+      .libnav {min-height:90px;}
+
+.version1 .featured-image-and-title, .version2 .featured-image-and-title {height: 400px; background-image: url("/images/hero-background.jpg");
+         position: relative;margin-bottom:0px;}
+
+    .version2   .featured-image-and-title {height: 300px;}
+    .version2 .big-title-wrap {position: absolute !important;transform: translateY(-50%) !important; top: 50% !important; }
+    .version2     h1.pg-title {font-size: 4em;}
+
+     /* quicksearch */
+    .homepagesearch { padding: 20px;background-color: #fff;}
+    .form-inline .form-control {display: inline-block;width: auto;vertical-align: middle;}
+.version1 .featured-image-and-title .big-title-wrap{ /*padding:2em; height: 400px; display:flex;*/ }
+
+
+.version3 .homepage-feature {height:400px;}
+.version3 .homepage-feature--image {display:block;}
+
+.version3 .homepage-feature--find {margin-left: 1rem;position: absolute;}
+
+}
+
+@media (max-width: 991px) {
+    .social-links {/*display:none;*/}  
+ .version2  .tab-content>.tab-pane { display: block;opacity: 1;} 
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+    /* campusnav megamenu */
+
+    .secondnav .campusnav {min-height:90px;}
+    .dropdown-menu .megamenu {/*padding: 2rem 1rem;*/}
+
+    .dropdown:hover .megamenu {display: flex;}
+    .megamenu.show {display: flex; }
+
+    /*hero banner */
+    .featured-image-and-title.has-media .big-title-wrap {/*bottom: 4.25em;*/}
+
+ .version1   .featured-image-and-title {height: 400px; padding:2em;
+        background-image: url("/images/hero-background.jpg");
+        position: relative;margin-bottom:0px;}
+
+   .version2 .featured-image-and-title .media-wrap {height: 300px; position: relative !important;}
+    .version2 .big-title-wrap {position: absolute !important;transform: translateY(-50%) !important; top: 50% !important; }
+    .version2     h1.pg-title {font-size: 6em;}
+    .version2 .frontdecor {background-color: #d3bc8d;padding: 20px; margin-bottom: 20px;}
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }
+
+

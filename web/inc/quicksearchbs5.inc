@@ -3,7 +3,7 @@
 
 
 
-<ul class="nav nav-tabs id="myTab" role="tablist">
+<ul class="nav nav-tabs" id="myTab" role="tablist">
    <li class="nav-item" role="presentation">
 <button class="nav-link active" id="#tab-1" data-bs-toggle="tab" data-bs-target="#tab-1" type="button" role="tab" aria-controls="tab-1" aria-selected="true">Everything</button></li>
    <li class="nav-item" role="presentation">
@@ -13,7 +13,7 @@
    <li class="nav-item" role="presentation">
 <button class="nav-link" id="#tab-4" data-bs-toggle="tab" data-bs-target="#tab-4" type="button" role="tab" aria-controls="tab-4" aria-selected="false">Reserves</button></li>
    <li class="nav-item" role="presentation">
-<button class="nav-link" id="#tab-5" data-bs-toggle="tab" data-bs-target="#tab-5" type="button" role="tab" aria-controls="tab-6" aria-selected="false">Other Libraries</button></li>
+<button class="nav-link" id="#tab-5" data-bs-toggle="tab" data-bs-target="#tab-5" type="button" role="tab" aria-controls="tab-5" aria-selected="false">Other Libraries</button></li>
 </ul>
 
 

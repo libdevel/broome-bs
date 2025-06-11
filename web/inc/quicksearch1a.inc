@@ -1,5 +1,8 @@
+<h2>Quicksearch</h2>
+
 <div class="frontdecor">
 <div class="homepagesearch tabs">
+<h2>Find</h2>
 
 <ul class="nav flex-column nav-tabs flex-sm-row" role="tablist">
 	<li class="nav-item"><a class="nav-link active" href="#tab-1" data-bs-toggle="tab">Everything</a></li>
@@ -11,9 +14,9 @@
 
 <div class="tab-content border border-top-0">
 
-	<div id="tab-1" class="tab-pane container active">
-		<p>Search Primo for almost everything:</p>		
-	<form name="searchFormEv" role="search" id="all-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/search" onsubmit="searchPrimoEv();" enctype="application/x-www-form-urlencoded; charset=utf-8" >
+	<div id="tab-1" class="tab-pane fade active show">
+		<p>Search for almost everything:</p>		
+	<form name="searchFormEv" class="input-group input-group-lg" role="search" id="all-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/search" onsubmit="searchPrimoEv();" enctype="application/x-www-form-urlencoded; charset=utf-8" >
 
 		<input type="hidden" name="vid" value="01SUNY_BCC:01SUNY_BCC">
 		<input type="hidden" name="tab" value="Everything">
@@ -21,11 +24,11 @@
 		<!-- Fixed parameters -->
 		<input type="hidden" name="query" id="primoQueryEv">
 
-	<div class="col-md-10">
-			<input class="focus form-control"  aria-label="Input search terms here" type="text" id="primoQueryEvTemp" placeholder="Search for articles, books, and more" value="">	
+	<div class="input-group input-group-lg">
+			<input class="focus form-control" aria-label="Input search terms here" type="text" id="primoQueryEvTemp" placeholder="Search for articles, books, and more" maxlength="256" size="auto" value="">	
 	</div>	<!-- col-md-10 -->	
-	<div class="col-md-2">
-			<input type="submit" class="btn btn-info" value="Search" id="go1" title="Search" onclick="searchPrimoEv()" />
+	<div class="edit-actions">
+            <input type="submit" class="btn btn-info" value="Search" id="go1" title="Search" onclick="searchPrimoEv()"   />
 	</div>
 			</form> 					
 <p class="library-links"><a href = "/library/journals-and-magazines">Journal A-Z list</a> | <a href = "https://suny-bcc.primo.exlibrisgroup.com/discovery/search?vid=01SUNY_BCC:01SUNY_BCC&sortby=rank&mode=advanced">Advanced Search</a></p>
@@ -33,9 +36,9 @@
 	</div> <!-- tab-1 --> 
 
 
-<div id="tab-2" class="tab-pane container fade">	
-		<p>Search Primo for articles:</p>	
-	<form name="searchFormArt" role="search" id="article-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/search" onsubmit="PrimoQueryArt();" enctype="application/x-www-form-urlencoded; charset=utf-8" >
+<div id="tab-2" class="tab-pane fade show">	
+		<p>Search for articles:</p>	
+	<form name="searchFormArt" class="input-group input-group-lg" role="search" id="article-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/search" onsubmit="PrimoQueryArt();" enctype="application/x-www-form-urlencoded; charset=utf-8" >
 
 		<input type="hidden" name="vid" value="01SUNY_BCC:01SUNY_BCC">
 		<input type="hidden" name="tab" value="CentralIndex">
@@ -43,19 +46,19 @@
 		<!-- Fixed parameters -->
 		<input type="hidden" name="query" id="primoQueryArt">
 
-			<div class="col-md-10">
-			<input  class="form-control" aria-label="Input search terms here" type="text" id="primoQueryArtTemp" placeholder="Search for articles" value="" >
+			<div class="input-group input-group-lg">
+			<input  class="focus form-control" aria-label="Input search terms here" type="text" id="primoQueryArtTemp" placeholder="Search for articles" maxlength="256" size="auto" value="" >
 		</div>	<!-- col-md-10 -->
-		<div class="col-md-2">
-			<input type="submit" class="btn btn-info" value="Search" id="go2" title="Search" onclick="searchPrimoArt()"   />	
+		<div class="edit-actions">
+            <input type="submit" class="btn btn-info" value="Search" id="go2" title="Search" onclick="searchPrimoArt()"   />
 		</div>
 	</form> 
 	<div class="library-links"><a href="/library/databases">Search for articles by topic area</a> | <a href = "/library/journals-and-magazines">Journal A-Z list</a> | <a href = "https://suny-bcc.primo.exlibrisgroup.com/discovery/search?vid=01SUNY_BCC:01SUNY_BCC&sortby=rank&mode=advanced">Advanced Search</a></div>
 							
 	</div><!-- tab-2-->
 	
-	<div id="tab-3" class="tab-pane container fade">
-	<form name="searchFormCat" role="search" id="book-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/search" onsubmit="PrimoQueryCat();" enctype="application/x-www-form-urlencoded; charset=utf-8" >
+	<div id="tab-3" class="tab-pane fade show">
+	<form name="searchFormCat" class="input-group input-group-lg" role="search" id="book-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/search" onsubmit="PrimoQueryCat();" enctype="application/x-www-form-urlencoded; charset=utf-8" >
 
 		<input type="hidden" name="vid" value="01SUNY_BCC:01SUNY_BCC">
 		<input type="hidden" name="tab" value="LibraryCatalog">
@@ -63,10 +66,10 @@
 		<!-- Fixed parameters -->
 		<input type="hidden" name="query" id="primoQueryCat">
 
-			<div class="col-md-10">	
-			<input  class="form-control" aria-label="Input search terms here" type="text" id="primoQueryCatTemp" placeholder="Search for books and media" value="">	
+			<div class="input-group input-group-lg">	
+			<input  class="form-control" aria-label="Input search terms here" type="text" id="primoQueryCatTemp" placeholder="Search for books and media" maxlength="256" size="auto" value="">	
 			</div>	<!-- col-md-10 -->
-			<div class="col-md-2">
+			<div class="edit-actions">
 			<input  type="submit" class="btn btn-info"  value="Search" id="go3" title="Search" onclick="searchPrimoCat()"   />
 			</div>
 		</form> 
@@ -75,37 +78,40 @@
 	
 	</div><!-- tab-3-->
 		
-	<div id="tab-4" class="tab-pane container fade">
-	<form name="searchFormCR" role="search" id="reserves-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/search" onsubmit="PrimoQueryCR();" enctype="application/x-www-form-urlencoded; charset=utf-8" >
+	<div id="tab-4" class="tab-pane fade show">
+	<form name="searchFormCR" class="input-group input-group-lg" role="search" id="reserves-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/search" onsubmit="PrimoQueryCR();" enctype="application/x-www-form-urlencoded; charset=utf-8" >
 
 		<input type="hidden" name="vid" value="01SUNY_BCC:01SUNY_BCC">
 		<input type="hidden" name="tab" value="CourseReserves">
 		<input type="hidden" name="search_scope" value="CourseReserves">
 		<!-- Fixed parameters -->
 		<input type="hidden" name="query" id="primoQueryCR">
-
-		<div class="col-md-3">
+    <div class="d-flex flex-column flex-xl-row flex-grow-1">
+		<div class="js-form-item form-item js-form-type-select form-type-select js-form-item-s form-item-s form-no-label mb-2 mb-xl-0 me-0 me-xl-3">
 			<label class="sr-only" for="primoSelectCR">Select:</label>
-				<select class="form-control" id="primoSelectCR" >
+				<select class="form-control form-select" id="primoSelectCR" >
 				<option selected="selected" value="any,contains,">All Fields</option>
 				<option value="course_code,contains,">Course No.</option>
 				<option value="course_instructor,contains,">Instructor</option>
 			</select>
 			</div>	<!-- col-md-3 -->
-			<div class="col-md-7">
-			<input  class="form-control" aria-label="Input search terms here" type="text" id="primoQueryCRTemp" placeholder="Search for Reserves" value="" />	
-				</div>	<!-- col-md-7 -->
-				<div class="col-md-2">
+    <div class="input-group">
+			<div class="find__search flex-grow-1">
+			    <input  class="form-control" aria-label="Input search terms here" type="text" id="primoQueryCRTemp" maxlength="256" size="auto" placeholder="Search for Reserves" value="" />	
+			</div>	<!-- col-md-7 -->
+			<div class="form-actions js-form-wrapper form-wrapper">
 				<input type="submit" class="btn btn-info" value="Search" id="go4" title="Search" onclick="searchPrimoCR()"   />
 			</div>
+		</div>
+		</div>
 			</form> 					
 
 	</div><!--tab-4 -->
 	
 	
-	<div id="tab-5" class="tab-pane container fade">
+	<div id="tab-5" class="tab-pane fade show">
 		
-		<form name="searchFormILL" role="search" id="other-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/search" onsubmit="PrimoQueryILL();" enctype="application/x-www-form-urlencoded; charset=utf-8">
+		<form name="searchFormILL" class="input-group input-group-lg" role="search" id="other-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/search" onsubmit="PrimoQueryILL();" enctype="application/x-www-form-urlencoded; charset=utf-8">
 
 			<input type="hidden" name="vid" value="01SUNY_BCC:01SUNY_BCC">
 			<input type="hidden" name="tab" value="OtherLibraries">
@@ -113,10 +119,10 @@
 			<!-- Fixed parameters -->
 			<input type="hidden" name="query" id="primoQueryILL">
 
-				<div class="col-md-10">
-				<input  class="form-control" aria-label="Input search terms here" type="text" id="primoQueryILLTemp" placeholder="Search for books in other libraries" value="" >	
+				<div class="input-group input-group-lg">
+				<input  class="form-control" aria-label="Input search terms here" type="text" id="primoQueryILLTemp" placeholder="Search for books in other libraries" maxlength="256" size="auto" value="" >	
 				</div>	<!-- col-md-10 -->
-				<div class="col-md-2">
+				<div class="edit-actions">
 				<input type="submit" class="btn btn-info" value="Search" id="go6" title="Search" onclick="searchPrimoILL()"   />
 			</div>
 				</form> 					
