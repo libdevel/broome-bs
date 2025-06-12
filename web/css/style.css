@@ -83,16 +83,17 @@ h2, h3, h4 {margin-top: 0.9rem;}
 
 /* menu dropdowns */
 
-
 .firstnav .dropdown-item a, .secondnav .dropdown-item a, .libnav .dropdown-item a, .fourthnav .dropdown-item a {text-transform: none; font-family: "Roboto Slab",Arial,Helvetica,sans-serif; font-size:0.8em;}
 
-.libnav li.dropdown-item {border-bottom: 1px solid #232323; font-size: 1.2em; background-color:#fff; margin-bottom: 5px;padding-bottom: 5px;}
+.secondnav .dropdown-item,  .libnav .dropdown-item {text-transform: none; font-family: "Roboto Slab",Arial,Helvetica,sans-serif; font-size:0.8em;}
 
-.libnav li.dropdown-item .last {border-bottom:none; font-size: 1.2em; background-color:#fff; margin-bottom: 5px;padding-bottom: 5px;}
+.secondnav .dropdown-menu >li, .libnav .dropdown-menu >li {border-bottom: 1px solid #232323; font-size: 1.2em; background-color:#fff; margin-bottom: 5px;padding-bottom: 5px;}
 
-.libnav li.dropdown-item a {text-decoration: none; background-color:#fff;}
+.libnav li.dropdown-menu a {text-decoration: none; background-color:#fff; }
 
-.libnav li.dropdown-item a:hover {background-color:#fff;border-bottom: 1px dotted #232323;}
+.libnav a.dropdown-item:hover, .libnav a.dropdown-item:active {background-color:#fff;text-decoration: underline;}
+
+.libnav a.active.dropdown-item.is-active-hover {}
 
 /* mobile dropdown */
 .firstnav .dropdown-menu  a  {background-color:#232323; color:#fff;}
@@ -164,13 +165,13 @@ h2, h3, h4 {margin-top: 0.9rem;}
 
 /* quick search */
 
-.homepagesearch {--bs-nav-link-padding-x: 2rem; /*background-color: rgba(0,0,0,.8);*/ padding:1rem;  }
+.homepagesearch {--bs-nav-link-padding-x: 2rem; background-color: rgba(0,0,0,.8); padding:1rem;  }
 
 .homepagesearch h2 {color:#fff;}
 
 .homepagesearch .tab-content {min-height: 9.7em;background-color: #fff; padding:1.5rem;}
 
-.homepagesearch.tabs .nav-tabs .nav-link {border-width: 0;color: #000; font-size: 1rem; font-weight: 700; border-bottom: 1px solid #232323; padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);}
+.homepagesearch.tabs .nav-tabs .nav-link {border-width: 0;color: #fff; font-size: 1rem; font-weight: 700; /*border-bottom: 1px solid #232323;*/ padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);}
 .homepagesearch .nav-tabs .nav-link.active { color:#000;}
 
 div.homepagesearch.tabs li > button {/*font-weight: bold;*/ color:#000;}

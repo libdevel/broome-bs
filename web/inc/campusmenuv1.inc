@@ -26,11 +26,10 @@
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="https://sunybroome.edu/careers-workforce/" title="">Careers &amp; Workforce<span class="caret"></span></a>   
 				<ul class="dropdown-menu">
-					<li class="dropdown-item"><a href="https://sunybroome.edu/careers-workforce/conted/" title="">Continuing Education</a></li>
-					<li class="dropdown-item"><a href="https://sunybroome.info/library/books-and-media" title="">Books and Media</a></li>
-					<li class="dropdown-item"><a href="https://sunybroome.info/library/databases-by-title" title="">Database A-Z</a></li>
-					<li class="dropdown-item"><a href="https://sunybroome.info/library/interlibrary-loan" title="">Interlibrary Loan</a></li>
-					<li class="dropdown-item"><a href="https://sunybroome.info/library/journals-and-magazines" title="">Journal A-Z </a></li>
+                   <li class="nav-item"><a class="dropdown-item" href="#" >Test</a></li>
+                   <li class="nav-item"><a class="dropdown-item" href="#" >Test 2</a></li>
+                   <li class="nav-item"><a class="dropdown-item" href="#" >Test 3</a></li>
+                   <li class="nav-item"><a class="dropdown-item" href="#" >Test 4</a></li>
 				</ul>
 			</li>
              <li class="nav-item"><a class="nav-link" href="https://sunybroome.edu/foundation-alumni/">Foundation &amp; Alumni</a></li>
