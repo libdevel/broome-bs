@@ -1,9 +1,9 @@
 <div class="secondnav">
-<nav class="navbar campusnav bg-body-tertiary navbar-expand-xl">
-   <div class="container">
-   <div class="campus-logo">
+<nav class="navbar campusnav bg-body-tertiary navbar-expand-xxl">
+   <div class="container d-flex"">
+          <div class="region region-branding">
       <a class="navbar-brand" href="https://sunybroome.edu"><img src="images/sunybroome-words_retina.png" alt="SUNY Broome Logo" height="27" width="250"></a> 
-   </div>
+         </div>
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#campusNavDropdown" aria-controls="campusNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icon material-icons-sharp">menu</span>
                     <span class="icon-text">campus</span>
@@ -87,4 +87,5 @@
    </div>
    <!-- /container -->
 </nav><!-- /campusnav -->
+</div><!-- secondnav-->
 

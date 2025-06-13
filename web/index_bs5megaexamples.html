@@ -14,31 +14,31 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/primo.js"></script>
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style2.css">
 <style>
-.megamenu ul {
+.noclue .megamenu ul {
   list-style: none;
   padding: 0;
 }
 
-.megamenu.show {
+.noclue .megamenu.show {
   display: flex;
 }
 
-.megamenu li:first-child a {
+.noclue .megamenu li:first-child a {
   font-weight: bold;
   font-size: 1.2em;
   text-transform: uppercase;
   color: #516beb;
 }
 
-.megamenu li .dropdown-item {
+.noclue .megamenu li .dropdown-item {
   color: gray;
   font-size: 1em;
   padding: 0.5em 1em;
 }
 
-.megaumenu {
+.noclue .megaumenu {
   border: none;
   border-radius: 0;
   padding: 0.7em;
@@ -46,10 +46,10 @@
 }
 
 @media only screen and (min-width: 992px) {
-  .dropdown:hover .megamenu {
+ .noclue .dropdown:hover .megamenu {
     display: flex;
   }
-  .megamenu.show {
+ .noclue .megamenu.show {
     display: flex;
   }
 }
@@ -61,7 +61,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
+  <div class="container">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -94,13 +94,13 @@
 </nav>
 
 <nav class="navbar bg-dark border-bottom border-body navbar-expand-lg bg" data-bs-theme="dark">
-    <div class="container-fluid">
+    <div class="container">
     <a class="navbar-brand" href="#">Navbar</a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar2NavDropdown" aria-controls="navbar2NavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <div class="collapse navbar-collapse" id="navbar2NavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
@@ -121,15 +121,68 @@
   </div>
 </nav>
 
-<div class="float-sm-end">Float end on viewports sized SM (small 576px) or wider</div><br>
-<div class="float-md-end">Float end on viewports sized MD (medium 768px) or wider</div><br>
-<div class="float-lg-end">Float end on viewports sized LG (large 992px) or wider</div><br>
-<div class="float-xl-end">Float end on viewports sized XL (extra large 1200px) or wider</div><br>
-<div class="float-xxl-end">Float end on viewports sized XXL (extra extra large 1400px) or wider</div><br>
+<hr />
+
+<p><a href="https://codingyaar.com/bootstrap-mega-menu-1/">https://codingyaar.com/bootstrap-mega-menu-1/</a></p>
+<style>
+.yaar .navbar-dark .navbar-nav a.nav-link {
+  color: #ffffff;
+  font-size: 1.1em;
+}
+.yaar  .dropdown-menu {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border: none;
+  border-radius: 0;
+  padding: 0.7em;
+}
+@media only screen and (min-width: 992px) {
+ .yaar  .dropdown:hover .dropdown-menu {
+    display: flex;
+  }
+ .yaar  .dropdown-menu.show {
+    display: flex;
+  }
+}
+.yaar .dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+}
+.yaar .dropdown-menu li .dropdown-item {
+  color: gray;
+  font-size: 1em;
+  padding: 0.5em 1em;
+}
+.yaar  .dropdown-menu li .dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+.yaar  .dropdown-menu li:first-child a {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #516beb;
+}
+.yaar .dropdown-menu li:first-child a:hover {
+  background-color: #f1f1f1;
+}
+@media only screen and (max-width: 992px) {
+ .yaar  .dropdown-menu.show {
+    flex-wrap: wrap;
+    max-height: 350px;
+    overflow-y: scroll;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1140px) {
+.yaar   .dropdown:hover .dropdown-menu {
+    width: 40vw;
+    flex-wrap: wrap;
+  }
+}
 
 
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #516BEB;">
-  <div class="container-fluid">
+</style>
+
+<nav class="navbar navbar-expand-lg yaar navbar-dark" style="background-color: #516BEB;">
+  <div class="container">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -186,18 +239,31 @@
   </div>
 </nav>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<hr />
+<p><a href="https://mdbootstrap.com/docs/standard/extended/mega-menu/">https://mdbootstrap.com/docs/standard/extended/mega-menu/</a></p>
+
+<style>
+  .mdb  .dropdown-menu {
+        width: 100vw;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+</style>
+
+
+
+<nav class="mdb navbar navbar-expand-lg bg-body-tertiary">
   <!-- Container wrapper -->
   <div class="container-fluid">
+    <a class="navbar-brand" href="#">Mega Navbar</a>
     <!-- Toggle button -->
-    <button data-mdb-button-init class="navbar-toggler px-0" type="button" data-mdb-collapse-init
-      data-mdb-target="#navbarExample1" aria-controls="navbarExample1" aria-expanded="false"
-      aria-label="Toggle navigation">
-      <i class="fas fa-bars"></i>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarmegaContent"
+      aria-controls="navbarmegaContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
 
     <!-- Collapsible wrapper -->
-    <div class="collapse navbar-collapse" id="navbarExample1">
+    <div class="collapse navbar-collapse" id="navbarmegaContent">
       <!-- Left links -->
       <ul class="navbar-nav me-auto ps-lg-0" style="padding-left: 0.15rem">
         <li class="nav-item">
@@ -223,8 +289,8 @@
                     <a href="" class="list-group-item list-group-item-action">Amet consectetur</a>
                     <a href="" class="list-group-item list-group-item-action">Cras justo odio</a>
                     <a href="" class="list-group-item list-group-item-action">Adipisicing elit</a>
-                  </div>
-                </div>
+                  </div><!-- /list-group  -->
+                </div><!-- / col-md-6 -->
                 <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
                   <div class="list-group list-group-flush">
                     <a href="" class="list-group-item list-group-item-action">Explicabo voluptas</a>
@@ -232,8 +298,8 @@
                     <a href="" class="list-group-item list-group-item-action">Cras justo odio</a>
                     <a href="" class="list-group-item list-group-item-action">Laudantium maiores</a>
                     <a href="" class="list-group-item list-group-item-action">Provident dolor</a>
-                  </div>
-                </div>
+                  </div><!-- /list-group  -->
+                </div><!-- / col-md-6 -->
                 <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
                   <div class="list-group list-group-flush">
                     <a href="" class="list-group-item list-group-item-action">Iste quaerato</a>
@@ -241,8 +307,8 @@
                     <a href="" class="list-group-item list-group-item-action">Est iure</a>
                     <a href="" class="list-group-item list-group-item-action">Praesentium</a>
                     <a href="" class="list-group-item list-group-item-action">Laboriosam</a>
-                  </div>
-                </div>
+                  </div><!-- /list-group  -->
+                </div><!-- / col-md-6 -->
                 <div class="col-md-6 col-lg-3">
                   <div class="list-group list-group-flush">
                     <a href="" class="list-group-item list-group-item-action">Cras justo odio</a>
@@ -250,32 +316,42 @@
                     <a href="" class="list-group-item list-group-item-action">Vel alias</a>
                     <a href="" class="list-group-item list-group-item-action">Sunt doloribus</a>
                     <a href="" class="list-group-item list-group-item-action">Cum dolores</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+                  </div>       <!-- /list-group  -->
+                </div><!-- / col-md-6 -->
+              </div><!-- / row my-4 -->
+            </div><!-- /container  -->
+          </div><!-- /  -->
         </li>
       </ul>
       <!-- Left links -->
-    </div>
+    </div><!-- /  -->
     <!-- Collapsible wrapper -->
   </div>
   <!-- Container wrapper -->
 </nav>
 
+<hr />
+
+<p><a href="https://stackoverflow.com/questions/75655225/how-to-get-mega-menu-positioned-inside-the-container">https://stackoverflow.com/questions/75655225/how-to-get-mega-menu-positioned-inside-the-container/</a></p>
+
 
 <style>
-@media (min-width: 992px) {
 
-.navbar-expand-lg .navbar-nav .dropdown-menu {
-    position: absolute;
-}
+  .stacko  .dropdown-menu {
+        width: 100vw;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+@media (min-width: 992px) {
+    
+    .stacko .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute;
+    }
 }
 </style>
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+<nav class="stacko navbar navbar-expand-lg navbar-light bg-light shadow">
   <div class="container">
     <a class="navbar-brand" href="#">Bootstrap</a>
     <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
@@ -343,10 +419,124 @@
   </div>
 </nav>
 
+<hr />
+<p><a href="https://codepen.io/ktmthemes/pen/WNZbzQK">https://codepen.io/ktmthemes/pen/WNZbzQK</a></p>
+<style>
+@media all and (min-width: 992px) {
+.treeview .dropdown-menu {
+		width: 13rem;
+	}
+.treeview 	.mega-submenu {
+		left: 100%;
+		top: 0;
+		min-width: 25rem;
+	}
+.treeview 	.ktm-mega-menu {
+		position: static;
+	}
+.treeview 	.mega-menu {
+		left: 0;
+		right: 0;
+		width: 100%;
+	}
+.treeview 	.dropdown-menu li {
+		position: relative;
+	}
+.treeview 	.dropdown-menu .submenu {
+		display: none;
+		left: 100%;
+		top: 0;
+	}
+.treeview 	.dropdown-menu>li:hover>.submenu,
+.treeview 	.dropdown:hover>.dropdown-menu {
+		display: block;
+	}
+}
+</style>
+
+
+<!-- Menu -->
+<div class="bg-primary treeview">
+   <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+         <!-- Nav Toggle Button -->
+         <button class="navbar-toggler my-2" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" 
+            aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <!-- Nav Links -->
+         <div class="collapse navbar-collapse justify-content-center lh-lg" id="main_nav">
+            <ul class="navbar-nav p-3 p-md-0">
+               <li class="nav-item"> <a class="nav-link active" href="#">Home</a> </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages </a>
+                  <!-- Dropdown -->
+                  <ul class="dropdown-menu">
+                     <li><a class="dropdown-item" href="#">About Us </a></li>
+                     <!-- Dropdown Megasubmenu -->
+                     <li>
+                        <a class="dropdown-item" href="#"> Dropdown Content<strong class="float-end">&raquo;</strong> </a>
+                        <div class="submenu dropdown-menu mega-submenu p-3">
+                           <span>
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                           </span>
+                        </div>
+                     </li>
+                     <li><a class="dropdown-item" href="#">Login </a></li>
+                  </ul>
+               </li>
+               <!-- Mega Menu -->
+               <li class="nav-item dropdown ktm-mega-menu">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Mega Menu  </a>
+                  <!-- Mega Menu -->
+                  <div class="dropdown-menu mega-menu p-3">
+                     <span>
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                     </span>
+                  </div>
+               </li>
+               <!-- Tree Menu -->
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Treeview menu  </a>
+                  <ul class="dropdown-menu">
+                     <li><a class="dropdown-item" href="#"> Dropdown item 1 </a></li>
+                     <li>
+                        <a class="dropdown-item" href="#"> Dropdown item 2 <strong class="float-end">»</strong>  </a>
+                        <!-- Drop Down -->
+                        <ul class="submenu dropdown-menu">
+                           <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                           <li>
+                              <a class="dropdown-item" href="#">Submenu item 3 <strong class="float-end">»</strong> </a>
+                              <!-- Drop Down -->
+                              <ul class="submenu dropdown-menu">
+                                 <li><a class="dropdown-item" href="#">Multi level 1</a></li>
+                                 <li><a class="dropdown-item" href="#">Multi level 2</a></li>
+                              </ul>
+                           </li>
+                           <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+      </nav>
+   </div>
+</div>
+<!-- Ends -->
+
+
   <!-- Content -->
   <div class="container">
     <h1>Hello, world!</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<hr />
+<div class="float-sm-end">Float end on viewports sized SM (small 576px) or wider</div><br>
+<div class="float-md-end">Float end on viewports sized MD (medium 768px) or wider</div><br>
+<div class="float-lg-end">Float end on viewports sized LG (large 992px) or wider</div><br>
+<div class="float-xl-end">Float end on viewports sized XL (extra large 1200px) or wider</div><br>
+<div class="float-xxl-end">Float end on viewports sized XXL (extra extra large 1400px) or wider</div><br>
 
   </div>
 
