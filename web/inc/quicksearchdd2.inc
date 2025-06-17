@@ -1,6 +1,11 @@
+<style>
+.homepagesearch {--bs-nav-link-padding-x: 2rem; background-color:#fff; padding:1rem;  }
+</style>
+
+<h2>Quick Search</h2>
+
 <div class="frontdecor">
    <div class="homepagesearch tabs">
-      <h3>Quicksearch2 Fugly Dropdown</h3>
       <form id="simple" method="get" name="PrimosearchForm" onsubmit="searchPrimo()" target="_blank" enctype="application/x-www-form-urlencoded; charset=utf-8">
          <div class="row">   
          <div class="col-md-4">

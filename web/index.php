@@ -12,7 +12,8 @@
          require_once('inc/librarymenu.inc');
          ?>
     <div id="sul_mobile_chat_container">
-        <div class="needs-js" >CHAT</div>
+<script src="https://sunybroome.libanswers.com/load_chat.php?hash=5a4e12972681f2cc6bfa79be6d9c052bb3c3e0467170d18124beef22247496ea"></script>
+        <div id="libchat_5a4e12972681f2cc6bfa79be6d9c052bb3c3e0467170d18124beef22247496ea"></div>
     </div>
    </header>
 <main role="main" id="main" class="mb-3">
@@ -55,14 +56,6 @@
          require_once('inc/cankle.inc');
          require_once('inc/footer.inc');
          ?>
-      <div class=" text-nowrap rounded-3 p-1 m-3 text-bg-dark opacity-75">
-         <div class="d-block d-sm-none">Extra Small (xs) (<576px)</div>
-         <div class="d-none d-sm-block d-md-none">Small (sm) (>576px)</div>
-         <div class="d-none d-md-block d-lg-none">Medium (md) (>768px)</div>
-         <div class="d-none d-lg-block d-xl-none">Large (lg) (>992 px)</div>
-         <div class="d-none d-xl-block d-xxl-none">X-Large (xl) (>1200px)</div>
-         <div class="d-none d-xxl-block">XX-Large (xxl) (>1400px)</div>
-      </div><!--/text-nowrap -->
    </footer>
 </body>
 </html>

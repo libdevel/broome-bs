@@ -1,6 +1,12 @@
+<style>
+.homepagesearch {--bs-nav-link-padding-x: 2rem; background-color:#fff; padding:1rem;  }
+</style>
+
+<h2>Quick Search</h2>
+
 <div class="frontdecor">
 <div class="homepagesearch tabs">
-<h2>Quicksearch</h2>
+
 
 	<!--AllSearch Form-->
 	<form class="form-inline text-center" id="simple" role="search" name="searchForm2" method="get" target="_self" action="https://suny-bsc.primo.exlibrisgroup.com/discovery/search" enctype="application/x-www-form-urlencoded; charset=utf-8" onsubmit="searchPrimo()">

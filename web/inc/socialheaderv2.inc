@@ -1,15 +1,15 @@
 
-      <div id="social-header">
-         <div class="social-links ">
-           
-             <nav class="navbar bg-dark navbar-expand-xxl" data-bs-theme="dark">
+      <div class="firstnav">
+            <nav class="navbar navbar-expand-xxl">
                <div class="container">
                    <div class="campus-logo">
                       <a class="navbar-brand" href="https://broome1.wpenginepowered.com/"><img src="/images/SB-Wordmark_Gold.png" alt="SUNY Broome Logo" height="27" width="250"></a> 
                    </div>
-                  <button class="navbar-toggler campusbutton" type="button" data-bs-toggle="collapse" data-bs-target="#campuslinksNavDropdown" aria-controls="campuslinksNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="icon material-icons-sharp">more_horiz</span>
-                    <span class="icon-text">campus</span>
+                  <button class="campusbutton navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#socnavbarSupportedContent" aria-controls="campuslinksNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+              <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"/>
+            </svg>
+             <span class="icon-text">campus</span>
                   </button>
 
             
@@ -54,5 +54,4 @@
                   </div><!-- /collapse -->
                </div><!-- /container -->
             </nav>
-         </div><!-- /campus-links -->
-      </div><!-- /social-header -->
+     </div><!-- /firstnav -->

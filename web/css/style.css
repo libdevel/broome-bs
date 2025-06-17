@@ -26,7 +26,7 @@ body {color:#232323; font-size: 1.1rem;  line-height:1.66; margin: 0;
     font-family: "Roboto Slab",Arial,Helvetica,sans-serif;}
 
 a {color: #04407B; text-decoration: underline;}
-a:hover, a:focus {color: #946232;text-decoration: none; border:0px;}
+a:hover, a:focus {color: #946232;text-decoration: underline; border:0px;}
 
 
 .btn-info {color: #fff;border-color: #022241;background-image: linear-gradient(#04519b,#033c73 60%,#02325f);}
@@ -115,7 +115,7 @@ h2, h3, h4 {margin-top: 0.9rem;}
 
 .secondnav  img {width: 200px; height: 22px;}
 
-.libnav  {margin-bottom: 20px;}
+
 
 /*  megamenu dropdown and fly.... */
 
@@ -171,7 +171,7 @@ h2, h3, h4 {margin-top: 0.9rem;}
 
 .homepagesearch h2 {color:#fff;}
 
-.homepagesearch .tab-content {min-height: 9.7em;background-color: #fff; padding:1.5rem;}
+.homepagesearch .tab-content {background-color: #fff; padding:1.5rem;}
 
 .homepagesearch.tabs .nav-tabs .nav-link {border-width: 0;color: #fff; font-size: 1rem; font-weight: 700; /*border-bottom: 1px solid #232323;*/ padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);}
 .homepagesearch .nav-tabs .nav-link.active { color:#000;}
@@ -179,13 +179,12 @@ h2, h3, h4 {margin-top: 0.9rem;}
 div.homepagesearch.tabs li > button {/*font-weight: bold;*/ color:#000;}
 div.homepagesearch.tabs li > button:hover  {font-weight: bold; color: #946232;}
 
-.homepagesearch form { flex-wrap: nowrap; margin-bottom: 1rem;}
+.homepagesearch .nav-tabs {--bs-nav-tabs-border-radius: none;}
 
+.homepagesearch form { flex-wrap: nowrap; margin-bottom: 1rem;}
 .homepagesearch .bef-exposed-form .form--inline { margin-bottom: 0}
 .homepagesearch .form-type-select {flex-shrink: 0}
 .homepagesearch .form-item-query { flex-grow: 1;}
-
-
 .homepagesearch .input-group {--bs-border-radius: 4px; align-items: end;}
 .homepagesearch .input-group-lg > .form-control {font-size:0.9em;}
 
@@ -197,47 +196,9 @@ div.homepagesearch.tabs li > button:hover  {font-weight: bold; color: #946232;}
 
 .lcs_slide_out-r {top: 35% !important;}
 
-.lcs_slide_out div.lcs_header a {font-family: "Roboto Slab",Arial,Helvetica,sans-serif; font-size:18px;}
+.lcs_slide_out div.lcs_header a {font-family: "Roboto Slab",Arial,Helvetica,sans-serif; font-size:1em; }
 
-@media only screen and (min-width: 768px) {
-    .ask {
-        display: block;
-        position: fixed;
-        padding: 0;
-        right: -2px;
-        top: 65%;
-        z-index: 10;
-        box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.57);
-        cursor: pointer;
-    }
-    .ask button {
-        color: #fafafa;
-        text-transform: uppercase;
-        line-height: 1;
-        margin-bottom: 0;
-        padding: 0;
-    }
-    .ask__part1 {
-        font-size: 2rem;
-    }
-}
-
-#sul_mobile_chat_container {
-  display: none;
-}
-
-@media screen and (max-width: 800px) {
-  #sul_mobile_chat_container {
-    display: inline-block;
-    width: 100%;
-    background-color: #203299;
-    text-align: center;
-    margin-top: .0625rem;
-  }
-
-  #lcs_slide_out-20238 {
-    display: none;}
-}
+#sul_mobile_chat_container {display: none;}
 
 
 /* libcal hours */
@@ -319,7 +280,8 @@ div.homepagesearch.tabs li > button:hover  {font-weight: bold; color: #946232;}
 
 .footerfooter {background-color:#d3bc8d; padding: 30px 20px 30px 20px;}
 
-.footerfooter p {font-weight:700;}
+
+.footerfooter p {text-align:center;margin-bottom:0px; font-size:16px;} 
 .footerfooter a {color: #232323;}
 
 
@@ -354,12 +316,22 @@ div.homepagesearch.tabs li > button:hover  {font-weight: bold; color: #946232;}
    .homepagesearch {/*padding: 20px;background-color: #fff;*/}
 
    div.homepagesearch.tabs li > button {/*padding:0.25rem 0.5rem;*/}
+    .homepagesearch .tab-content {min-height: 192px;}
+}
 
+@media screen and (max-width: 800px) {
+
+  #sul_mobile_chat_container {display: inline-block;
+    width: 100%;background-color: #286090;text-align: center;
+    margin-top: .0625rem;}
+
+  #lcs_slide_out-20238 {display: none;}
 }
 
 @media (max-width: 991px) {
     .social-links {/*display:none;*/}  
     .version2  .tab-content>.tab-pane {/* display: block;opacity: 1;*/} 
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -379,6 +351,8 @@ div.homepagesearch.tabs li > button:hover  {font-weight: bold; color: #946232;}
     .library-logo a { font-size:4.5em;}
        h1 { font-size:3.0rem;}
 
+
+    .libnav  {margin-bottom: 20px;}
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
