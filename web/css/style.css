@@ -194,11 +194,11 @@ div.homepagesearch.tabs li > button:hover  {font-weight: bold; color: #946232;}
 
 /* Lib chat */
 
-.lcs_slide_out-r {top: 35% !important;}
+.lcs_slide_out-r {top: 45% !important;}
 
 .lcs_slide_out div.lcs_header a {font-family: "Roboto Slab",Arial,Helvetica,sans-serif; font-size:1em; }
 
-#sul_mobile_chat_container {display: none;}
+.mobile_chat {display: none;}
 
 
 /* libcal hours */
@@ -321,11 +321,11 @@ div.homepagesearch.tabs li > button:hover  {font-weight: bold; color: #946232;}
 
 @media screen and (max-width: 800px) {
 
-  #sul_mobile_chat_container {display: inline-block;
+  .mobile_chat {display: inline-block;
     width: 100%;background-color: #286090;text-align: center;
     margin-top: .0625rem;}
 
-  #lcs_slide_out-20238 {display: none;}
+  #lcs_slide_out-20238, #lcs_slide_out_button-28113 {display: none;}
 }
 
 @media (max-width: 991px) {
