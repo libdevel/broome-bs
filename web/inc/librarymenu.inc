@@ -38,7 +38,7 @@
 							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="about-library.php" title="">Find & Borrow<span class="caret"></span></a>   
 							<ul class="dropdown-menu">
 								<li><a class="dropdown-item" href="https://sunybroome.info/library/databases" title="">Articles by Subject</a></li>
-								<li><a class="dropdown-item" href="https://sunybroome.info/library/books-and-media" title="">Books and Media</a></li>
+								<li><a class="dropdown-item" href="books-and-media.php" title="">Books and Media</a></li>
 								<li><a class="dropdown-item" href="https://sunybroome.info/library/databases-by-title" title="">Database A-Z</a></li>
 								<li><a class="dropdown-item" href="https://sunybroome.info/library/interlibrary-loan" title="">Interlibrary Loan</a></li>
 								<li><a class="dropdown-item" href="https://sunybroome.info/library/journals-and-magazines" title="">Journal A-Z </a></li>

@@ -1,8 +1,12 @@
-<h2>Quicksearch</h2>
+<style type="text/css">
 
+.nav-tabs {--bs-nav-tabs-border-radius: none;}
+
+</style>
+
+<h2>Quicksearch</h2>
 <div class="frontdecor">
 <div class="homepagesearch tabs">
-<h2>Find</h2>
 
 <ul class="nav flex-column nav-tabs flex-sm-row" role="tablist">
 	<li class="nav-item"><a class="nav-link active" href="#tab-1" data-bs-toggle="tab">Everything</a></li>
@@ -58,6 +62,7 @@
 	</div><!-- tab-2-->
 	
 	<div id="tab-3" class="tab-pane fade show">
+        <p>Search for books and media:</p>
 	<form name="searchFormCat" class="input-group input-group-lg" role="search" id="book-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/search" onsubmit="PrimoQueryCat();" enctype="application/x-www-form-urlencoded; charset=utf-8" >
 
 		<input type="hidden" name="vid" value="01SUNY_BCC:01SUNY_BCC">
@@ -79,6 +84,7 @@
 	</div><!-- tab-3-->
 		
 	<div id="tab-4" class="tab-pane fade show">
+        <p>Search for books on reserve:</p>
 	<form name="searchFormCR" class="input-group input-group-lg" role="search" id="reserves-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/search" onsubmit="PrimoQueryCR();" enctype="application/x-www-form-urlencoded; charset=utf-8" >
 
 		<input type="hidden" name="vid" value="01SUNY_BCC:01SUNY_BCC">
@@ -110,7 +116,7 @@
 	
 	
 	<div id="tab-5" class="tab-pane fade show">
-		
+		<p>Search for books in other libraries:</p>
 		<form name="searchFormILL" class="input-group input-group-lg" role="search" id="other-search" method="get" action="https://suny-bcc.primo.exlibrisgroup.com/discovery/search" onsubmit="PrimoQueryILL();" enctype="application/x-www-form-urlencoded; charset=utf-8">
 
 			<input type="hidden" name="vid" value="01SUNY_BCC:01SUNY_BCC">
@@ -129,6 +135,7 @@
 	</div><!-- tab 5-->
 	
 </div><!-- tab-content -->
+
 
 </div><!--homepagesearch -->
 

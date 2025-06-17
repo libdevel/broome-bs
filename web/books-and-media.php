@@ -11,9 +11,6 @@
          require_once('inc/featuredimage.inc');
          require_once('inc/librarymenu.inc');
          ?>
-    <div id="sul_mobile_chat_container">
-        <div class="needs-js" >CHAT</div>
-    </div>
    </header>
 <main role="main" id="main" class="mb-3">
    <a id="main-content" tabindex="-1"></a>
@@ -28,7 +25,7 @@
 
                <div class="region-content">
                   <?php 
-                     require_once('inc/quicksearch1.inc');
+                     require_once('inc/primobooks.inc');
                      ?>
                   <div class=" text-nowrap rounded-3 p-1 m-3 text-bg-dark opacity-75">
                      <div class="d-block d-sm-none">Extra Small (xs) (<576px)</div>
@@ -45,9 +42,7 @@
                ?>
          </div><!-- row g-0-->
 
-      <?php 
-         require_once('inc/newsblock.inc');
-         ?>
+
    </div><!-- content-wrap -->
 </main>
    <footer class="footer" role="contentinfo">
