@@ -1,9 +1,7 @@
 
 
-<div id="sul_chat_container">
-<script src="https://sunybroome.libanswers.com/load_chat.php?hash=22a47fc81a2156a3037d58b5784f5fbb"></script>
-<div class="askdt" id="libchat_22a47fc81a2156a3037d58b5784f5fbb"></div>
-</div>
+
+
 
 
 <div class="footerfooter">	 

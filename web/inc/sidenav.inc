@@ -1,4 +1,4 @@
-        <aside class="col-sm-3 sidenav" role="complementary">
+        <aside class="col-sm-3 sidenav region-sidebar-second" role="complementary">
 				<section>
 	            <div class="hours-block">
 	                <h3 class="block-title">Hours</h3>
@@ -9,7 +9,7 @@
 			</section>
 	
 
-	
+
 	
 	
 		</aside><!-- sidenav -->

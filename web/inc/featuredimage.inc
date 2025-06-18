@@ -1,6 +1,6 @@
   
 
-<div class="row site-hero-wrap">
+<div class="site-hero-wrap">
     <div class="clearfix">
         <div class="site-hero">
         <div class="region region-hero">
