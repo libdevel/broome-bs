@@ -7,7 +7,12 @@
    <header role="banner">
       <?php 
          require_once('inc/socialheaderv1.inc');
+         ?>
+      <?php 
          require_once('inc/campusmenuv1.inc');
+         require_once('inc/campussearchv1.inc');
+         ?>
+      <?php 
          require_once('inc/featuredimage.inc');
          require_once('inc/librarymenu.inc');
          ?>

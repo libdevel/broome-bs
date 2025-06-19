@@ -1,5 +1,5 @@
 <style>
-.homepagesearch {--bs-nav-link-padding-x: 2rem; background-color:#fff; padding:1rem;  }
+.homepagesearch {--bs-nav-link-padding-x: 2rem;  padding:1rem;  }
 </style>
 
 <h2>Quick Search</h2>
@@ -28,10 +28,13 @@
 					<option value="CourseReserves">Reserves</option>
 					<option value="OtherLibraries">Other SUNYs</option>
 				</select>
+               <div class="input-group input-group-sm js-form-wrapper form-wrapper" data-drupal-selector="edit-options-container" id="edit-options-container">
 				<input class="input-lg form-control" aria-label="Input search terms here" type="text" id="primoQueryTemp" value="" size="35">
 
 				<!-- Search Button -->
-				<input class="btn btn-default btn-outline-dark input-lg" id="go" title="Search" onclick="searchPrimo()" type="button" value="SEARCH" alt="Search">
+				<input class="btn btn-primary btn-outline-dark input-lg" id="go" title="Search" onclick="searchPrimo()" type="button" value="SEARCH" aria-label="Search" alt="Search">
+               </div><!-- / input group -->
+
 			</div><!--col -->
 			</div><!--row -->
  <div class="library-links"><a href="/library/databases">Search for articles by subject</a> | <a href="/library/journals-and-magazines">Journal A-Z list</a> | <a href="https://suny-bcc.primo.exlibrisgroup.com/discovery/search?vid=01SUNY_BCC:01SUNY_BCC&sortby=rank&mode=advanced">Advanced Search</a></p>

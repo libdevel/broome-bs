@@ -1,12 +1,12 @@
 <section class="cankle clearfix">	
 	<div class="cankle-container container">	 
 	  <div class="row">
-		<div class="col-sm col-md-6 col-lg-3">
+		<div class="col-sm col-lg-6 col-xl-3">
             <div class="mx-4">
-			<h3 class="broome-yellow"><a href="https://www1.sunybroome.edu/"  alt="SUNY Broome"><img class="img-fluid" src="images/footerlogo.png"></a></h3>
+			<a class="footerlogo" href="https://www1.sunybroome.edu/"  alt="SUNY Broome"><img class="img-fluid" src="images/footerlogo.png"></a>
 
 				<p> 907 Front Street <br />Binghamton, NY 13905</p>
-			<ul>
+			<ul class="campus">
 				<li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-map-fill" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.598-.49L10.5.99 5.598.01a.5.5 0 0 0-.196 0l-5 1A.5.5 0 0 0 0 1.5v14a.5.5 0 0 0 .598.49l4.902-.98 4.902.98a.5.5 0 0 0 .196 0l5-1A.5.5 0 0 0 16 14.5zM5 14.09V1.11l.5-.1.5.1v12.98l-.402-.08a.5.5 0 0 0-.196 0zm5 .8V1.91l.402.08a.5.5 0 0 0 .196 0L11 1.91v12.98l-.5.1z"/>
 </svg> <a href="https://broome1.wpenginepowered.com/broome/map/">Parking & Campus Map</a></li>
@@ -21,7 +21,7 @@
 		</div><!-- col-md-3-->
 
 
-		<div class="col-sm col-md-6 col-lg-3">
+		<div class="col-sm col-lg-6 col-xl-3">
             <div class="mx-4">
         <h3>Apply and Register</h3>
             <ul class="apply">
@@ -34,7 +34,7 @@
         </div><!--mx-4 -->
 		</div><!--col-md-3 -->
 
-		<div class="col-6 col-lg-3">
+		<div class="col-sm col-lg-6 col-xl-3">
             <div class="mx-4">
 			<h3>Quick Links</h3>
 			<ul class="quicklinks">
@@ -47,7 +47,7 @@
         </div><!--mx-4 -->
 		</div><!--col-md-3 -->
 
-		<div class="col-6 col-lg-3">
+		<div class="col-sm col-lg-6 col-xl-3">
             <div class="mx-4">
 			<h3>Health & Safety</h3>
 			<ul class="health">

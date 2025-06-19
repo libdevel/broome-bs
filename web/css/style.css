@@ -6,6 +6,16 @@
 #6d5312 (Dark Gold)
 #fbfaf5 (Off-White)
 
+
+breakpoints
+Extra small          None	<576px
+Small	             sm	    ≥576px
+Medium	             md	    ≥768px
+Large	             lg	    ≥992px
+Extra large	        xl	    ≥1200px
+Extra extra large	xxl	    ≥1400px
+
+
 */
 /* fonts */
 
@@ -116,6 +126,32 @@ h2, h3, h4 {margin-top: 0.9rem;}
 .secondnav  img {width: 200px; height: 22px;}
 
 
+/* Campus search dropdown */
+
+.block-psul-search-popup-search-block {
+  --bs-border-radius-sm: 0;
+  --bs-border-width: 1px;
+  --bs-border-color: #001e44;
+}
+
+@media (min-width: 550px) {
+  .block-psul-search-popup-search-block form {
+    min-width: 450px;
+  }
+}
+
+@media (max-width: 767px) {
+  .block-psul-search-popup-search-block .dropdown-menu[data-bs-popper] {
+    width: calc(100vw - 5rem);
+  }
+}
+
+@media (min-width: 768px) {
+  header .header--nav-search {
+    position: static;
+  }
+}
+
 
 /*  megamenu dropdown and fly.... */
 
@@ -189,13 +225,15 @@ div.homepagesearch.tabs li > button:hover  {font-weight: bold; color: #946232;}
 .homepagesearch .input-group-lg > .form-control {font-size:0.9em;}
 
 .library-links {padding-top: 10px;margin-bottom: 0px;clear: both;}
+.library-links-dd a {color: #fff;}
 
 
 /* Lib chat */
 
-.lcs_slide_out-r {/*top: 45% !important;*/}
+.lcs_slide_out-r {top: 25% !important;}
 
-.lcs_slide_out div.lcs_header a {/*font-family: "Roboto Slab",Arial,Helvetica,sans-serif; font-size:1em;*/ }
+.lcs_slide_out div.lcs_header a {text-decoration:none; }
+.lcs_slide_out div.lcs_header a:hover {text-decoration:underline; }
 
 .mobile_chat {display: none;}
 
@@ -260,28 +298,34 @@ div.homepagesearch.tabs li > button:hover  {font-weight: bold; color: #946232;}
 .footer {margin-top:20px;}
 
 /* cankle */
-.cankle {background-color:#232323; font-size:16px;  padding-top:100px; padding-bottom:100px; color: #fff; font-size:0.8rem;}
-.cankle ul {padding-top:10px; padding-left:0;}
-
-.cankle li {margin-left:0px;
-	list-style-image: none;list-style-type: none;
-	margin-bottom: 10px;padding-bottom: 10px;
- border-bottom: 1px solid #e7e6e6;}
+.cankle {background-color:#232323; font-weight:500; padding-top:100px; padding-bottom:100px; color: #fff;}
 
 .cankle h3, .cankle h4 {color: #fff;}
 
-.cankle svg {margin-right: 0.4rem;}
+.cankle ul {padding-top:10px; padding-left:0;}
+.cankle li {margin-left:0px;
+	list-style-image: none;list-style-type: none; padding: 10px;}
 
-.cankle p  { color:#fff;font-size:0.8rem;}
-.cankle a  { color:#fff; text-decoration:none; border-bottom: 1px dotted #d8d8d8; font-size:0.8rem;}
+ul.campus > li {padding-top:0;}
+
+ul.apply > li, ul.health > li, ul.quicklinks > li {border-bottom: 1px solid #d8d8d8;}
+ul.apply > li.last,  ul.health > li.last, ul.quicklinks > li.last {border-bottom: none;}
+
+
+.cankle p  { color:#fff;font-size:1rem;}
+
+.cankle a  { color:#fff; text-decoration:none; border-bottom: 1px dotted #d8d8d8; font-size:1rem;}
 .cankle a:hover, .cankle a:focus {color: #eeb310; text-decoration:underline; font-weight:700;}
 
-.cankle .broome-yellow a {color:#eeb310; margin-top:10px; font-family:'albertus_mediumregular';
-     min-height:70px;font-size: 1.0em; text-transform: none;}
+.cankle a.social-icons  {text-decoration:none; border:none;}
+
+a.footerlogo img {/*max-width:300px;*/}
+.cankle svg {margin-right: 0.4rem;}
 
 
+
+/* footer */
 .footerfooter {background-color:#d3bc8d; padding: 20px; font-weight: 700;font-size:0.8rem;}
-
 
 .footerfooter p {text-align:center;margin-bottom:0px; } 
 .footerfooter a {color: #232323;}
@@ -326,6 +370,7 @@ div.homepagesearch.tabs li > button:hover  {font-weight: bold; color: #946232;}
   .mobile_chat {display: inline-block;
     width: 100%;background-color: #286090;text-align: center;
     margin-top: .0625rem;}
+  .mobile_chat button:hover {/*text-decoration:underline;*/}
 
   #lcs_slide_out-20238, #lcs_slide_out_button-28113 {display: none;}
 
