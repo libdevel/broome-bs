@@ -11,11 +11,12 @@
 			</button>
 
 
-		<div class="offcanvas offcanvas-end justify-content-md-end" id="libNavDropdown">
+		<div class="offcanvas offcanvas-end justify-content-md-end" id="libNavDropdown" aria-labelledby="libNavDropdown">
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Library Menu</h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div><!-- /offcanvas-header -->
+
    <div class="offcanvas-body justify-content-end">
 					<ul class="nav navbar-nav justify-content-end">
 						<li class="nav-item dropdown">

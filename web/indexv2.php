@@ -6,14 +6,6 @@
    <body class="version1">
       <?php 
          require_once('inc/socialheaderv2.inc');
-         ?>
-      <div class="secondnav">
-      <nav class="navbar libnav navbar-expand-lg bg-body-tertiary">
-      <div class="container">
-         <div class="library-logo">
-            <h1><a class="navbar-brand" href="https://broome-bs1.ddev.site/">Library</a></h1>
-         </div>
-         <?php 
             require_once('inc/librarymenuv2.inc');
             ?>
       </div>

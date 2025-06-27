@@ -12,6 +12,7 @@
                   <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Campus Main Menu</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div><!-- /offcanvas-header -->
+
        <div class="offcanvas-body justify-content-md-end">
           <ul class="nav navbar-nav justify-content-end">
              <li class="nav-item"><a class="nav-link" href="https://sunybroome.edu/academics-programs/">Academics &amp; Programs</a></li>
@@ -36,5 +37,5 @@
            </div><!-- /offcanvas body -->
        </div><!-- /offcanvas-->
 
-
+<!-- rest is in campussearch.inc -->
 

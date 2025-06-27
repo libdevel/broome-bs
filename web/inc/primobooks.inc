@@ -80,11 +80,11 @@
 
 </style>
 
-
- <div class="homepage-feature--find">
+<h2>Find Books</h2>
+ <div class="simplesearch">
 
 <div class="block block-psul-search block-psul-search-homepage-find-block">
-<h2>Find Books</h2>
+
 
 
 
@@ -112,52 +112,5 @@
 </div><!-- tab-content -->
 </div><!--homepage-feature -->
 
-<h3>
-    Browse for:
-</h3>
-<ul>
-    <li>
-        <a href="https://suny-bcc.primo.exlibrisgroup.com/discovery/search?query=any,contains,%3F&amp;tab=LibraryCatalog&amp;search_scope=MyInstitution&amp;sortby=date_d&amp;vid=01SUNY_BCC:01SUNY_BCC&amp;facet=location_code,include,4811%E2%80%93160972480004811%E2%80%93jcirc,lk&amp;offset=0&amp;came_from=sort">Children's books</a>
-    </li>
-    <li>
-        <a href="https://suny-bcc.primo.exlibrisgroup.com/discovery/search?query=sub,contains,Films,AND&amp;pfilter=rtype,exact,videos,AND&amp;tab=LibraryCatalog&amp;search_scope=MyInstitution&amp;sortby=rank&amp;vid=01SUNY_BCC:01SUNY_BCC&amp;mode=advanced&amp;offset=0">Films and Movies</a>
-    </li>
-    <li>
-        <a href="https://suny-bcc.primo.exlibrisgroup.com/discovery/search?query=sub,exact,fiction,AND&amp;pfilter=rtype,exact,books,AND&amp;tab=LibraryCatalog&amp;search_scope=MyInstitution&amp;sortby=date_d&amp;vid=01SUNY_BCC:01SUNY_BCC&amp;lang=en&amp;mode=advanced&amp;offset=0">Fiction</a>
-    </li>
-    <li>
-        <a href="https://suny-bcc.primo.exlibrisgroup.com/discovery/search?query=any,contains,%3F&amp;tab=LibraryCatalog&amp;search_scope=MyInstitution&amp;sortby=date_d&amp;vid=01SUNY_BCC:01SUNY_BCC&amp;mfacet=location_code,include,4811%E2%80%93160972480004811%E2%80%93newbk,1&amp;lang=en&amp;offset=0&amp;came_from=sort">New books</a>
-    </li>
-    <li>
-        <a href="https://sunybroome.info/library/news/overdrive-ebooks-and-audio-books-available-now">Overdrive ebooks and audiobooks</a>
-    </li>
-    <li>
-        <a href="https://suny-bcc.primo.exlibrisgroup.com/discovery/jsearch?vid=01SUNY_BCC:01SUNY_BCC">Print and Electronic Journals and Magazines</a>
-    </li>
-</ul>
-<h3>
-    Look for books at other libraries
-</h3>
-<ul>
-    <li>
-        <a href="https://suny-bin.primo.exlibrisgroup.com/discovery/search?vid=01SUNY_BIN:01SUNY_BIN&amp;lang=en&amp;sortby=rank">Binghamton University Library Catalog</a>
-    </li>
-    <li>
-        <a href="https://www.thebcpl.org/">Broome County Public Library</a>
-    </li>
-    <li>
-        <a href="https://fcls.ent.sirsi.net/client/en_US/fcls">Four County Library System (4CLS)</a>
-    </li>
-    <li>
-        WorldCat
-        <ul>
-            <li>
-                <a href="http://webster.sunybroome.edu:2048/login?url=http://firstsearch.oclc.org/dbname=WorldCat;done=referer;FSIP">FirstSearch</a>
-            </li>
-            <li>
-                <a href="https://sunybroome.on.worldcat.org/discovery">WorldCat Discovery</a>
-            </li>
-        </ul>
-    </li>
-</ul>
+
 
