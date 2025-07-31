@@ -11,14 +11,20 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <script src="js/primo.js"></script>
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/stylebs3.css">
 
 <style>
-
+body {
+  color: #232323;
+  font-size: 16px;
+  line-height: 1.66;
+  font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
+}
 .social-links-wrap {float:left; padding-top: 15px;
     padding-bottom: 15px;}
 
@@ -26,8 +32,18 @@
 
 .slinks, .campusnav-links {float:right;}
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
 
-.featured-image-and-title {background-color: #000; background-image: url("/images/NetworkBlack.png"); min-height: auto;}
+.featured-image-and-title {background-color: #000; background-image: url("/images/IMG_9441.jpg.webp"); min-height: auto;}
+
+@media (min-width: 768px) {
+  .region-hero img {
+    max-height: 380px;
+  }
+}
 
 </style>
 
@@ -104,21 +120,47 @@
 
      
  </div> <!-- content-wrap -->
+<!-- #content bottom -->
+<div class="cankle clearfix">
+   <div class="cankle-container container" >
+      <div class="row">
+         <div class="col-sm col-md-6 col-lg-3">
+<div class="mx-4">
+      <?php 
+         require_once('inc/cankle1.inc');
+         ?>
+            </div><!--mx-4 -->
+         </div><!-- / cankle 1-->
+         <div class="col-sm col-md-6 col-lg-3">
+            <div class="mx-4">
+      <?php 
+         require_once('inc/cankle2.inc');
+         ?>
+         </div><!--mx-4 -->
+         </div><!-- / cankle 2 -->
+         <div class="col-sm col-md-6 col-lg-3">
+            <div class="mx-4">
+      <?php 
+         require_once('inc/cankle3.inc');
+         ?>
+         </div><!--mx-4 -->
+         </div><!-- / cankle 3 -->
+         <div class="col-sm col-md-6 col-lg-3">
+            <div class="mx-4">
+      <?php 
+         require_once('inc/cankle4.inc');
+         ?>
+         </div><!--mx-4 -->
+         </div><!-- / cankle 4 -->
+      </div><!-- / row -->
+   </div><!-- / cankle-container container -->
+</div><!-- / cankle clearfix -->
+
       <footer class="footer" role="contentinfo">
-         <?php 
-            require_once('inc/cankle.inc');
-            ?>
          <?php 
             require_once('inc/footer.inc');
             ?>
-<div class=" text-nowrap rounded-3 p-1 m-3 text-bg-dark opacity-75">
-  <div class="d-block d-sm-none">Extra Small (xs) (<576px)</div>
-  <div class="d-none d-sm-block d-md-none">Small (sm) (>576px)</div>
-  <div class="d-none d-md-block d-lg-none">Medium (md) (>768px)</div>
-  <div class="d-none d-lg-block d-xl-none">Large (lg) (>992 px)</div>
-  <div class="d-none d-xl-block d-xxl-none">X-Large (xl) (>1200px)</div>
-  <div class="d-none d-xxl-block">XX-Large (xxl) (>1400px)</div>
-</div>
+
       </footer>
    </body>
 </html>

@@ -3,14 +3,19 @@
    ?>
 <title>Bootstrap Library v1</title>
 </head>
-<body class="version2">
+<body class="version2 d-flex flex-column h-100">
+    <div class="visually-hidden-focusable skip-link p-3 container">
+      <a href="#main-content" class="p-2">
+        Skip to main content
+      </a>
+    </div>
    <header role="banner">
       <?php 
          require_once('inc/socialheaderv1.inc');
          ?>
       <?php 
-         require_once('inc/campusmenuv1.inc');
-         require_once('inc/campussearchv1.inc');
+         require_once('inc/campusmenuv2.inc');
+     
          ?>
       <?php 
          require_once('inc/featuredimage.inc');

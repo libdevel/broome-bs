@@ -31,7 +31,7 @@
             <input type="submit" class="btn btn-info" value="Search" id="go1" title="Search" onclick="searchPrimoEv()"   />
 	</div>
 			</form> 					
-<p class="library-links"><a href = "/library/journals-and-magazines">Journal A-Z list</a> | <a href = "https://suny-bcc.primo.exlibrisgroup.com/discovery/search?vid=01SUNY_BCC:01SUNY_BCC&sortby=rank&mode=advanced">Advanced Search</a></p>
+<div class="library-links"><a href="https://sunybroome.libguides.com/az/databases">Database A-Z list</a> | <a href = "https://suny-bcc.primo.exlibrisgroup.com/discovery/jsearch?vid=01SUNY_BCC:01SUNY_BCC&lang=en">Journal A-Z list</a> | <a href = "https://suny-bcc.primo.exlibrisgroup.com/discovery/search?vid=01SUNY_BCC:01SUNY_BCC&sortby=rank&mode=advanced">Advanced Search</a></div>
 	
 	</div> <!-- tab-1 --> 
 
@@ -53,7 +53,7 @@
             <input type="submit" class="btn btn-info" value="Search" id="go2" title="Search" onclick="searchPrimoArt()"   />
 		</div>
 	</form> 
-	<div class="library-links"><a href="/library/databases">Search for articles by topic area</a> | <a href = "/library/journals-and-magazines">Journal A-Z list</a> | <a href = "https://suny-bcc.primo.exlibrisgroup.com/discovery/search?vid=01SUNY_BCC:01SUNY_BCC&sortby=rank&mode=advanced">Advanced Search</a></div>
+	<div class="library-links"><a href="https://sunybroome.libguides.com/az/databases">Database A-Z list</a> | <a href = "https://suny-bcc.primo.exlibrisgroup.com/discovery/jsearch?vid=01SUNY_BCC:01SUNY_BCC&lang=en">Journal A-Z list</a> | <a href = "https://suny-bcc.primo.exlibrisgroup.com/discovery/search?vid=01SUNY_BCC:01SUNY_BCC&sortby=rank&mode=advanced">Advanced Search</a></div>
 							
 	</div><!-- tab-2-->
 	

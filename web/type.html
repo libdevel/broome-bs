@@ -24,12 +24,16 @@
 body {color:#232323; font-size: 1.1rem; line-height:1.66; margin: 0;
     font-family: "Roboto Slab",Arial,Helvetica,sans-serif;}
 
+.verb {font-family: 'Verdana',sans-serif;}
+
+.hell {font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+
 a:hover, a:focus {color: #d3bc8d ;}
 
 
-h1 {font-family:"Barlow Semi Condensed",Arial,Helvetica,sans-serif; font-weight:700; text-transform: uppercase; letter-spacing:-0.015em; }
+h1 { font-weight:700; text-transform: none; letter-spacing:-0.015em; }
 
-h1 {font-size:4.5rem;}
+h1 {font-size:3rem;}
 
 
 .library-logo-big-wrap {background-color: #000;}
@@ -52,7 +56,9 @@ header {margin-bottom: 10px;}
 
 .library-logo a {} 
 
-.library-logo svg {width: 75%; height: auto;} 
+.library-logo {background-color:#fff; padding:0;}
+
+.library-logo3 svg {width: 75%; height: auto;} 
 
 .campus-menu h2 {text-transform:uppercase; }
 .campus-menu h2 a {font-family:"Barlow Semi Condensed",Arial,Helvetica,sans-serif;  text-transform: uppercase; font-weight:bold; 
@@ -69,23 +75,23 @@ header {margin-bottom: 10px;}
 
 
 @media (min-width: 768px) { 
-.library-logo svg {width: 50%; height: auto;}
+.library-logo3 svg {width: 50%; height: auto;}
 }
 
 
 @media (min-width: 992px) {
 
-.library-logo svg {width: 30%; height: auto;} 
+.library-logo3 svg {width: 30%; height: auto;} 
 }
 
 @media (min-width: 992px) {
 
-.library-logo svg {width: 30%; height: auto;} 
+.library-logo3 svg {width: 30%; height: auto;} 
 }
 
 @media (min-width: 1200px) {
 
-.library-logo svg {width: 30%; height: auto;} 
+.library-logo3 svg {width: 30%; height: auto;} 
 }
 
 
@@ -107,7 +113,7 @@ header {margin-bottom: 10px;}
 
          <div class="library-logo-bar">
              <div class="container">
-                <div class="library-logo">
+                <div class="library-logo3">
                    <a href="#" alt="Library Logo"><svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="1839.000000pt" height="200.000000pt" viewBox="0 0 1839.000000 200.000000"
  preserveAspectRatio="xMidYMid meet">
@@ -172,25 +178,16 @@ l-12 42 -155 0 -154 0 36 -47z"/>
   <h2>Headers</h2> 
   <p>Headers are used to describe such elements as website name, slogan, section titles. HTML and XHTML specifications define 6 levels of headers, where h1 is the most important and h6 is the least important.</p>
 
-  <h1>Header 1</h1>
 <div class="library-logo-big-wrap">
   <h1 class="library-logo-big">Page Banner Title</h1>
 </div>
   <h1 class="page-header">Page Title</h2>
+  <h1>Header 1</h1>
   <h2>Header 2</h2>
   <h3>Header 3</h3>
   <h4>Header 4</h4>
   <h5>Header 5</h5>
   <h6>Header 6</h6>
-
-
-<h2>Display Headers</h2> 
-<h1 class="display-1">Display 1</h1>
-<h1 class="display-2">Display 2</h1>
-<h1 class="display-3">Display 3</h1>
-<h1 class="display-4">Display 4</h1>
-<h1 class="display-5">Display 5</h1>
-<h1 class="display-6">Display 6</h1>
 
 <h2>Paragraphs</h2>
 
@@ -202,6 +199,10 @@ l-12 42 -155 0 -154 0 36 -47z"/>
   <p>A paragraph typically consists of a unifying main point, thought, or idea accompanied by supporting details. The non-fiction paragraph usually begins with the general and moves towards the more specific so as to advance an argument or point of view. Each paragraph builds on what came before and lays the ground or run the length of multiple pages, and may consist of one or many sentences. When dialogue is being quoted in fiction, a new paragraph is used each time the person being quoted changed.</p> 
   <p>In (X)HTML, the p element marks a block of text as a paragraph - the opening tag &lt;p&gt; marks the beginning of a paragraph, and the closing tag &lt;/p&gt; marks the end of a paragraph. The end tag is optional for legacy HTML as the browser automatically starts another paragraph at the next &lt;p&gt; tag, or the nextblock element.</p>  
 
+<h3>Verdana</h3>
+  <p class="verb">According to Wikipedia: a paragraph (from the Greek <a href="#">paragraphos</a>, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea. The start of a paragraph is indicated by beginning on a new line. Sometimes the first line is indented; sometimes it is indented without beginning a new line.</p> 
+  <p class="verb">A paragraph typically consists of a unifying main point, thought, or idea accompanied by supporting details. The non-fiction paragraph usually begins with the general and moves towards the more specific so as to advance an argument or point of view. Each paragraph builds on what came before and lays the ground or run the length of multiple pages, and may consist of one or many sentences. When dialogue is being quoted in fiction, a new paragraph is used each time the person being quoted changed.</p> 
+  <p class="verb">In (X)HTML, the p element marks a block of text as a paragraph - the opening tag &lt;p&gt; marks the beginning of a paragraph, and the closing tag &lt;/p&gt; marks the end of a paragraph. The end tag is optional for legacy HTML as the browser automatically starts another paragraph at the next &lt;p&gt; tag, or the nextblock element.</p>  
 
 
 <h2>Inline Text Elements</h2>

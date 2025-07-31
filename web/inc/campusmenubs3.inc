@@ -1,8 +1,8 @@
 <div class="secondnav">
-<div class="container-fluid">
-    <nav class="navbar campusnav">
 
-           <div class="campus-logo">
+    <nav class="navbar campusnav">
+<div class="container">
+           <div class="region region-branding">
               <a class="navbar-brand" href="https://broome-bs1.ddev.site/"><img src="images/sunybroome-words_retina.png" alt="SUNY Broome Logo" height="27" width="250"></a> 
            </div><!-- /campuslogo -->
 

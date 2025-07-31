@@ -97,6 +97,8 @@ h2, h3, h4 {margin-top: 0.9rem;}
 
 .secondnav .dropdown-item,  .libnav .dropdown-item {text-transform: none; font-family: "Roboto Slab",Arial,Helvetica,sans-serif; font-size:0.8em;}
 
+.dropdown-item:focus, .dropdown-item:hover {color: var(--bs-dropdown-link-hover-color);background-color: #fff;}
+
 .secondnav .dropdown-menu >li, .libnav .dropdown-menu >li {border-bottom: 1px solid #232323; font-size: 1.2em; background-color:#fff; margin-bottom: 5px;padding-bottom: 5px;}
 
 .libnav li.dropdown-menu a {text-decoration: none; background-color:#fff; }
@@ -135,6 +137,10 @@ h2, h3, h4 {margin-top: 0.9rem;}
 }
 
 .campussearch form { flex-wrap: nowrap; margin-bottom: 1rem;}
+
+
+.search-links a {text-transform: none; font-family: "Roboto Slab",Arial,Helvetica,sans-serif;}
+
 
 @media (min-width: 550px) {
   .block-psul-search-popup-search-block form {min-width: 450px;}

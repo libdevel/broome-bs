@@ -32,7 +32,7 @@
   
                   <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="socnavbarSupportedContent" aria-controls="campuslinksNavDropdown">
                         <div class="offcanvas-header">
-                          <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Campus Menu 1</h5>
+                          <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Campus Links Menu</h5>
                           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div><!-- /header -->
                     <div class="offcanvas-body justify-content-md-end">
@@ -48,14 +48,15 @@
                            </ul>
                         </li>
                         <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           <a class="nav-link dropdown-toggle" href="https://news.sunybroome.edu/buzz/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                            News</a>
                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="https://broome1.wpenginepowered.com/news/">News</a> </li>
+                              <li><a class="dropdown-item" href="https://news.sunybroome.edu/buzz/">News</a> </li>
                               <li><a class="dropdown-item" href="https://news.sunybroome.edu/buzz/">Buzz</a></li>
                               <li><a class="dropdown-item" href="https://news.sunybroome.edu/buzz/category/hivehq/">HiveHQ</a></li>
                            </ul>
                         </li>
+                        <li class="nav-item"><a class="nav-link" href="https://sunybroome.edu/our-courses/">Courses</a></li>
                         <li class="nav-item"><a class="nav-link" href="https://mycollege.sunybroome.edu">MyCollege</a></li>
                      </ul>
                   </div><!-- /offcanvas body -->

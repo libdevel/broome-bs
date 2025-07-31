@@ -80,7 +80,7 @@
 
 </style>
 
-<h2>Find Books</h2>
+<h1>Find Books</h1>
  <div class="simplesearch">
 
 <div class="block block-psul-search block-psul-search-homepage-find-block">

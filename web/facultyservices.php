@@ -11,8 +11,12 @@
          require_once('inc/socialheaderv1.inc');
          require_once('inc/campusmenuv1.inc');
          require_once('inc/featuredimage.inc');
-         require_once('inc/librarymenuv1.inc');
+         require_once('inc/librarymenu.inc');
          ?>
+    <div class="mobile_chat">
+<script src="https://sunybroome.libanswers.com/load_chat.php?hash=5a4e12972681f2cc6bfa79be6d9c052bb3c3e0467170d18124beef22247496ea"></script>
+        <div id="libchat_5a4e12972681f2cc6bfa79be6d9c052bb3c3e0467170d18124beef22247496ea"></div>
+    </div>
    </header>
 
 
