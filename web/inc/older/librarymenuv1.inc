@@ -19,6 +19,7 @@
 
    <div class="offcanvas-body justify-content-end">
 					<ul class="nav navbar-nav justify-content-end">
+						<li class="nav-item"><a class="nav-link" href="https://sunybroome.info/library/news-and-events">News & Events</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="about-library.php" title="">About Us<span class="caret"></span></a>
 							<ul class="dropdown-menu">

@@ -16,18 +16,7 @@
 
       <script src="js/primo.js"></script>
       <link rel="stylesheet" href="css/style.css">
-<!--
-    <script defer data-domain="very.inept.quest" src="https://implausible.info/js/script.outbound-links.js"></script>
-    <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
--->
 
-
-<!--  sb.dev -->
-
-<!--
-<script defer data-domain="dev.sunybroome.dev" src="https://implausible.info/js/script.outbound-links.js"></script>
-<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
--->
 
 <!-- Google Tag Manager cc -->
 
