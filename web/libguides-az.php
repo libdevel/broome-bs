@@ -2,6 +2,30 @@
    require_once('inc/header.inc');
    ?>
 <title>Bootstrap 5 Libguides A-Z</title>
+
+<style>
+.secondnav, .thirdnav {
+  border-bottom: 1px solid #000;
+}
+
+.secondnav img {
+  height: 35px;
+}
+
+@media (min-width: 992px) {
+  .libnav {
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .thirdnav .navbar {
+    min-height: 85px;
+  }
+}
+
+</style>
+
 </head>
 <body class="version2">
 
@@ -18,7 +42,7 @@
         <div id="libchat_5a4e12972681f2cc6bfa79be6d9c052bb3c3e0467170d18124beef22247496ea"></div>
     </div>
    </header>
-<main role="main" id="main" class="mb-3">
+<main role="main" id="main" class="mt-3 mb-3">
    <a id="main-content" tabindex="-1"></a>
  <div class="container">
          <div class="row g-0">
@@ -31,7 +55,7 @@
 
                <div class="region-content">
                   <?php 
-                     require_once('inc/quicksearch1.inc');
+                     require_once('inc/libguides.inc');
                      ?>
                </div><!-- region-content -->
             </div><!-- col-sm-9 -->
@@ -40,9 +64,7 @@
                ?>
          </div><!-- row g-0-->
 
-      <?php 
-         require_once('inc/newsblock.inc');
-         ?>
+
    </div><!-- content-wrap -->
 </main>
 <!-- #content bottom -->

@@ -59,9 +59,12 @@ h2, h3, h4 {margin-top: 0.9rem;}
 
 /* header */
 
-.firstnav {border-top: 10px solid #eeb310; background-color: #000; height:65px; color:#fff;}
+.firstnav .navbar {margin-bottom:0;}
 
-.firstnav .navbar {height:55px; --bs-navbar-padding-y: 0rem;}
+
+.firstnav {border-top: 10px solid #eeb310; background-color: #000; /* height:65px; color:#fff;*/}
+
+.firstnav .navbar {/*height:55px; --bs-navbar-padding-y: 0rem;*/}
 
 .firstnav a, .secondnav a, .libnav a {font-family:"Barlow Semi Condensed",Arial,Helvetica,sans-serif; text-transform: uppercase;font-size: 14px; font-weight:700; letter-spacing:0.015em; /*padding-bottom:15px;*/ text-decoration: none;}
 
@@ -73,11 +76,11 @@ h2, h3, h4 {margin-top: 0.9rem;}
 
 .firstnav .dropdown-item.active, .secondnav .dropdown-item.active, .libnav .dropdown-item.active, .fourthnav .dropdown-item.active {--bs-dropdown-link-active-bg: #fff;}
 
-.nav > li > a:hover {text-decoration: underline; background-color: #fff;}
+.secondnav .nav > li > a:hover {text-decoration: underline; background-color: #fff; }
 
-.firstnav .nav-link:focus, .firstnav .nav-link:hover {color:#eeb310;}
+.firstnav .nav-link:focus, .firstnav .nav-link:hover, .firstnav .nav-link:active {color:#eeb310; background-color:#000;}
 
-.firstnav li.dropdown-item    {/*background-color:#000; color:#fff;*/}
+.firstnav li.dropdown-item    {background-color:#000; color:#fff;}
 .firstnav li.dropdown-item a:hover   {background-color:#000; color:#fff;}
 
 .firstnav .dropdown-item:hover, .dropdown-item:focus {background-color:#000; color:#fff;}
@@ -90,18 +93,11 @@ h2, h3, h4 {margin-top: 0.9rem;}
 .secondnav a, .libnav a {color:#232323; }
 .secondnav a:hover, .libnav a:hover {color:#6d5312;}
 
+
 .libnav img { height: 35px;  }
-
-.thirdnav .navbar {
-  position: relative;
-  min-height: 50px;
-  margin-bottom: 0px;
-  border: 1px solid transparent;
-}
-
-
-
+.thirdnav .navbar {position: relative; min-height: 50px;margin-bottom: 0px; border: 1px solid transparent;}
 .slinks, .campusnav-links {float:right;}
+
 
 .libnav a  {font-size: 0.9em;}
 
@@ -118,6 +114,8 @@ h2, h3, h4 {margin-top: 0.9rem;}
 
 .firstnav .dropdown-item a, .secondnav .dropdown-item a, .libnav .dropdown-item a, .fourthnav .dropdown-item a {text-transform: none; font-family: "Roboto Slab",Arial,Helvetica,sans-serif; /*font-size:0.8em;*/}
 
+.firstnav .dropdown-menu  a  {background-color:#232323; color:#fff;}
+
 .secondnav .dropdown-item,  .libnav .dropdown-item {text-transform: none; font-family: "Roboto Slab",Arial,Helvetica,sans-serif; /*font-size:0.8em;*/}
 .secondnav .dropdown-menu >li, .libnav .dropdown-menu >li {border-bottom: 1px solid #232323; font-size: 1.2em; background-color:#fff; margin-bottom: 5px;padding-bottom: 5px;}
 
@@ -127,7 +125,14 @@ h2, h3, h4 {margin-top: 0.9rem;}
 
 
 /* mobile dropdown */
-.firstnav .dropdown-menu  a  {background-color:#232323; color:#fff;}
+
+
+.firstnav .nav-bar-collapse  a.nav-link  {/*background-color:#232323; color:#fff;*/}
+
+.firstnav ul.nav.navbar-nav {/*background-color:#232323; color:#fff;*/}
+
+.firstnav .nav .open > a, .firstnav .nav .open > a:focus, .firstnav .nav .open > a:hover {background-color: #232323; color: #eeb310;}
+
 .firstnav .dropdown-menu > li a:hover,  .firstnav .dropdown-menu > li a:focus, .firstnav .dropdown-menu > li a:active {text-decoration: underline; background-color: #eeb310; color:#000;}
 
 .firstnav .menu-item--expanded, .secondnav .menu-item--expanded, .libnav .menu-item--expanded {list-style:none;}
@@ -136,6 +141,7 @@ h2, h3, h4 {margin-top: 0.9rem;}
 
 /* mobile button */
 .firstnav button {width: 60px; height: 50px; padding: 0;color: #fff; border:0px;}
+
 .secondnav button, .libnav button  {width: 60px;height: 50px;padding: 0;color: #000; border:0px;}
 
 .firstnav .icon, .secondnav .icon, .libnav .icon {margin: -5px; font-size: 26px; line-height: 26px;}
@@ -146,49 +152,6 @@ h2, h3, h4 {margin-top: 0.9rem;}
 
 .secondnav  img {/*width: 200px; height: 22px;*/}
 
-
-/* Campus search dropdown */
-
-.block-psul-search-popup-search-block {
-  --bs-border-radius-sm: 0;
-  --bs-border-width: 1px;
-  --bs-border-color: #001e44;
-}
-
-.campussearch form { flex-wrap: nowrap; margin-bottom: 1rem;}
-
-@media (min-width: 550px) {
-  .block-psul-search-popup-search-block form {min-width: 450px;}
-}
-
-@media (max-width: 767px) {
-  .block-psul-search-popup-search-block .dropdown-menu[data-bs-popper] {
-    width: calc(100vw - 5rem);
-  }
-}
-
-@media (min-width: 768px) {
-  header .header--nav-search {position: static;}
-}
-
-
-/*  megamenu dropdown and fly.... */
-
-
-.megamenu {border: none; border-radius: 0;padding: 0.7em; 
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);}
-.dropdown-menu {border: none; }
-.megamenu.show {display: flex;}
-.megamenu ul {list-style: none;padding: 0; line-height:1.33em;}
-.megamenu li .dropdown-item {color: #000;font-size: 14px; padding: 0.5em 1em; 
-    text-transform: none; font-weight: 500; border-bottom: 1px solid #232323;}
-
-.megamenu li:first-child a {font-weight: bold; font-size: 20px; /*text-transform: uppercase; font-family:"Barlow Semi Condensed",Arial,Helvetica,sans-serif; color: #516beb;*/}
-.megamenu li .dropdown-item .bigfat-menu  {font-weight: bold;font-size: 14px;
-  text-transform: uppercase;color: #516beb;}
-.megamenu a {text-transform: none; font-family: "Roboto Slab",Arial,Helvetica,sans-serif;}
-.megamenu a:hover  {color: #eeb310;}
-.megamenu .dropdown-item {white-space: wrap;}
 
 
 /* sidebar menu */
@@ -380,7 +343,7 @@ a.footerlogo img {/*max-width:300px;*/}
       
  .secondnav .navbar  {/*min-height: 85px;*/ padding-top:10px; padding-bottom:10px;}
 
-  .firstnav  img {width: 250px; height: 27.5px;}
+  
 
 .secondnav .navbar-brand {padding: 5px 5px;}
 

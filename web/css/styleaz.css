@@ -34,15 +34,13 @@ Extra extra large	xxl	    ≥1400px
 
 html {background-color: #000;}
 
-body {color:#232323; font-size: 1.75rem;  line-height:1.66; margin: 0;
+body {color:#232323; font-size: 1.1rem;  line-height:1.66; margin: 0;
     font-family: "Roboto Slab",Arial,Helvetica,sans-serif;}
-
 
 a {color: #04407B; text-decoration: underline;}
 a:hover, a:focus {color: #946232;text-decoration: underline; border:0px;}
 
 
-.img-fluid {max-width: 100%;height: auto;}
 .justify-content-end {justify-content: flex-end !important;}
 
 /* Headings
@@ -59,72 +57,58 @@ h2, h3, h4 {margin-top: 0.9rem;}
 
 /* header */
 
+.campus-logo-bar img {height: 27px;}
+.campus-logo a {text-decoration:none;}
+
 .firstnav {border-top: 10px solid #eeb310; background-color: #000; height:65px; color:#fff;}
 
-.firstnav .navbar {height:55px; --bs-navbar-padding-y: 0rem;}
+.firstnav .navbar {/*height:55px; --bs-navbar-padding-y: 0rem;*/}
 
-.firstnav a, .secondnav a, .libnav a {font-family:"Barlow Semi Condensed",Arial,Helvetica,sans-serif; text-transform: uppercase;font-size: 14px; font-weight:700; letter-spacing:0.015em; /*padding-bottom:15px;*/ text-decoration: none;}
+.firstnav a, .secondnav a, .libnav a {font-family:"Barlow Semi Condensed",Arial,Helvetica,sans-serif; text-transform: uppercase;font-size: 14px; font-weight:bold; letter-spacing:0.015em; /*padding-bottom:15px;*/}
 
 .firstnav a  {font-size: 12px; color:#fff;}
-
 .firstnav .nav > li > a:hover {text-decoration: none;background-color: #000; color: #eeb310;}
-
 .firstnav .dropdown-menu {background-color: #232323; color: #eeb310;}
 
 .firstnav .dropdown-item.active, .secondnav .dropdown-item.active, .libnav .dropdown-item.active, .fourthnav .dropdown-item.active {--bs-dropdown-link-active-bg: #fff;}
 
-.nav > li > a:hover {text-decoration: underline; background-color: #fff;}
-
 .firstnav .nav-link:focus, .firstnav .nav-link:hover {color:#eeb310;}
-
 .firstnav li.dropdown-item    {/*background-color:#000; color:#fff;*/}
 .firstnav li.dropdown-item a:hover   {background-color:#000; color:#fff;}
-
 .firstnav .dropdown-item:hover, .dropdown-item:focus {background-color:#000; color:#fff;}
 .firstnav  .navbar-nav .nav-link.show {color: #eeb310;}
 
-.campus-logo {float:left;}
 
-.secondnav, .thirdnav {border-bottom: 1px solid #000;}
+.secondnav {border-bottom: 1px solid #000;}
 
 .secondnav a, .libnav a {color:#232323; }
 .secondnav a:hover, .libnav a:hover {color:#6d5312;}
 
-.libnav img { height: 35px;  }
 
-.thirdnav .navbar {
-  position: relative;
-  min-height: 50px;
-  margin-bottom: 0px;
-  border: 1px solid transparent;
-}
-
-
-
-.slinks, .campusnav-links {float:right;}
-
-.libnav a  {font-size: 0.9em;}
+.libnav a  {/*font-size: 0.9em;*/}
 
 .fourthnav {background-color: #000; color:#fff;}
-
 .fourthnav a {font-weight:bold;  padding-bottom:15px;}
-
 .fourthnav li {border-bottom: 1px solid #d8d8d8;}
+
+#d8d4d4
+#eceaea
 
 /* menu dropdowns */
 
-.dropdown-menu > li > a {text-decoration: none;}
-.dropdown-menu > li > a {font-weight: 700;}
+.firstnav .dropdown-item a, .secondnav .dropdown-item a, .libnav .dropdown-item a, .fourthnav .dropdown-item a {text-transform: none; font-family: "Roboto Slab",Arial,Helvetica,sans-serif; font-size:0.8em;}
 
-.firstnav .dropdown-item a, .secondnav .dropdown-item a, .libnav .dropdown-item a, .fourthnav .dropdown-item a {text-transform: none; font-family: "Roboto Slab",Arial,Helvetica,sans-serif; /*font-size:0.8em;*/}
+.secondnav .dropdown-item,  .libnav .dropdown-item {text-transform: none; font-family: "Roboto Slab",Arial,Helvetica,sans-serif; font-size:0.8em;}
 
-.secondnav .dropdown-item,  .libnav .dropdown-item {text-transform: none; font-family: "Roboto Slab",Arial,Helvetica,sans-serif; /*font-size:0.8em;*/}
 .secondnav .dropdown-menu >li, .libnav .dropdown-menu >li {border-bottom: 1px solid #232323; font-size: 1.2em; background-color:#fff; margin-bottom: 5px;padding-bottom: 5px;}
 
 .libnav li.dropdown-menu a {text-decoration: none; background-color:#fff; }
+
 .libnav a.dropdown-item:hover, .libnav a.dropdown-item:active {background-color:#fff;text-decoration: underline;}
+
 .libnav a.active.dropdown-item.is-active-hover {}
 
+.firstnav .offcanvas-title {color:#fff;}
 
 /* mobile dropdown */
 .firstnav .dropdown-menu  a  {background-color:#232323; color:#fff;}
@@ -144,7 +128,7 @@ h2, h3, h4 {margin-top: 0.9rem;}
 .firstnav .icon-text {color:#fff;}
 .secondnav .icon-text, .libnav .icon-text  {color:#000;}
 
-.secondnav  img {/*width: 200px; height: 22px;*/}
+.secondnav  img {width: 200px; height: 22px;}
 
 
 /* Campus search dropdown */
@@ -156,6 +140,10 @@ h2, h3, h4 {margin-top: 0.9rem;}
 }
 
 .campussearch form { flex-wrap: nowrap; margin-bottom: 1rem;}
+
+
+.search-links a {text-transform: none; font-family: "Roboto Slab",Arial,Helvetica,sans-serif;}
+
 
 @media (min-width: 550px) {
   .block-psul-search-popup-search-block form {min-width: 450px;}
@@ -214,9 +202,6 @@ h2, h3, h4 {margin-top: 0.9rem;}
 .breadcrumb li, .breadcrumb a {color:#424242;}
 
 /* content */
-
-.content-wrap {margin-top:20px;}
-
 .front  #main-content h1 {display:none;}
 .front .page-header {display:none;}
 .path-frontpage h1 {display:none;}
@@ -378,18 +363,16 @@ a.footerlogo img {/*max-width:300px;*/}
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
       
- .secondnav .navbar  {/*min-height: 85px;*/ padding-top:10px; padding-bottom:10px;}
-
-  .firstnav  img {width: 250px; height: 27.5px;}
-
-.secondnav .navbar-brand {padding: 5px 5px;}
+ .secondnav .navbar {min-height: 85px;}
+  .secondnav  img {width: 250px; height: 27.5px;}
 
    .dropdown-menu {/*border:none;*/}
 
   .region-hero img { max-height:380px;}
   .library-logo a {font-size:4em;}
 
-
+   .frontdecor {/*background-color: #d3bc8d;padding: 10px; margin-bottom: 20px;*/}
+   .homepagesearch {/*padding: 20px;background-color: #fff;*/}
 
    div.homepagesearch.tabs li > button {/*padding:0.25rem 0.5rem;*/}
     .homepagesearch .tab-content {min-height: 192px;}
@@ -430,7 +413,7 @@ a.footerlogo img {/*max-width:300px;*/}
        h1 { font-size:3.0rem;}
 
 
-    .libnav  {/*margin-bottom: 20px;*/}
+    .libnav  {margin-bottom: 20px;}
 }
 
 /* X-Large devices (large desktops, 1200px and up) */

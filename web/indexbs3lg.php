@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
        <meta name='robots' content='noindex, nofollow' />
        <link rel="stylesheet" media="all" href="fonts/bootstrap-icons/font/bootstrap-icons.min.css" />
+
     <link rel="stylesheet" media="all" href="https://fonts.googleapis.com/css?family=Material+Icons+Sharp#.css" />
 
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,69 +20,18 @@
 
       <script src="js/primo.js"></script>
 
-      <link rel="stylesheet" href="css/stylebs3.css">
+      <link rel="stylesheet" href="css/stylebs3lg.css">
 
-<style>
-body {
-  color: #232323;
-  font-size: 16px;
-  line-height: 1.66;
-  font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
-}
-.social-links-wrap {float:left; padding-top: 15px;
-    padding-bottom: 15px;}
-
-.campus-logo {float:left;}
-
-.slinks, .campusnav-links {float:right;}
-
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
-
-.featured-image-and-title {background-color: #000; background-image: url("/images/IMG_9441.jpg.webp"); min-height: auto;}
-
-@media (min-width: 768px) {
-  .region-hero img {
-    max-height: 380px;
-  }
-}
-
-</style>
 
  <title>Bootstrap Library BS 3</title>
    </head>
    <body class="versionbs3">
 <?php 
-	require_once('inc/socialheaderbs3.inc');
+	require_once('inc/socialheaderbs3lg.inc');
+
+	require_once('inc/librarymenubs3lg.inc');
 ?>
 
-
-<?php 
-	require_once('inc/campusmenubs3.inc');
-?>
-
- 
-
-<div class="featured-image-and-title clearfix">
-    <div class="media-wrap container">							
-            <div class="big-title-wrap ">
-	            <h1 class="pg-title">Library</h1>
-            </div><!-- big-title-wrap-->
-    </div><!-- media-wrap-->
-</div><!-- featured-image-->
-
-
-<div class="thirdnav">
-<nav class="navbar libnav navbar-expand-lg bg-body-tertiary">
-   <div class="container">
-   <div class="library-logo">
-   </div>
-<?php 
-	require_once('inc/librarymenubs3.inc');
-?>
-</div><!-- /thirdnav -->
 
  <div class="content-wrap mt-3"> 
 <div class="container main-container">
